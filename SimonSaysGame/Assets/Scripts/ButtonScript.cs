@@ -14,14 +14,14 @@ public class ButtonScript : MonoBehaviour {
     private void Start()
     {
         //Gets the corresponding sound from sound manager
-        buttonAudioSource.clip = SoundManager.instance.musicNotes[buttonID];
+        //buttonAudioSource.clip = SoundManager.instance.musicNotes[buttonID];
         buttonMeshToColor.material.color = unpressedColor;
     }
 
     //Main method button clicked here I add or remove behaviours on the button
     public void ButtonClicked() {
         ButtonAnimation();
-        //PlayButtonSound();
+        PlayButtonSound();
         StartCoroutine(ColorChange());
         
     }
