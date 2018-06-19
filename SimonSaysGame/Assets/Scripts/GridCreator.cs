@@ -39,7 +39,6 @@ public class GridCreator : MonoBehaviour {
             for (int x = 0; x < rows; x++)
             {
                 Vector3 myVector = new Vector3(x, 0, -y);
-                Debug.Log(myVector);
                 buttonPositions.Add( myVector * distanceBetweenButtons);
             }      
         }
