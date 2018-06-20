@@ -5,8 +5,12 @@ using UnityEngine;
 public class Node : MonoBehaviour {
 
     BoxCollider nodeCollider;
+    public string nodeID;
+
 	// Use this for initialization
 	void Start () {
+      
+        nodeID = gameObject.name.Substring(gameObject.name.Length-2);
         nodeCollider = GetComponent<BoxCollider>();
         nodeCollider.enabled = false;
         GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
