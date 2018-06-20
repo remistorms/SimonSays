@@ -12,7 +12,7 @@ public class Manager_Event : Manager {
 
 
 	// Use this for initialization
-	public void Initialize () 
+	public override void Initialize () 
 	{
 		EM = this;
 	}

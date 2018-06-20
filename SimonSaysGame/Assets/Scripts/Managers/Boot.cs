@@ -42,6 +42,7 @@ public class Boot : MonoBehaviour
         
         yield return null;
         SceneManager.LoadScene (1, LoadSceneMode.Additive);
+        SceneManager.LoadScene(2, LoadSceneMode.Additive);
     }
 
 }
