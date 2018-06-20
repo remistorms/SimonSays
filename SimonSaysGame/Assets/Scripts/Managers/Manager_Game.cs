@@ -40,6 +40,7 @@ public class Manager_Game : Manager {
 
     public void OnGameOver() {
         state = State.GameOver;
+        GLOBAL.instance.M_ui.ShowScreen(UIScreen.Enum_Screen.PostGame);
     }
 
     IEnumerator DelayedStartRoutine() {
