@@ -16,9 +16,12 @@ public class Manager_Game : Manager {
 
     public override void Initialize()
     {
-        base.Initialize();
         state = State.None;
+        Debug.Log("Initialized Manager Game");
+        GLOBAL.instance.M_event.EVT_Game_Setup += OnGameSetup;
     }
 
-  
+    public void OnGameSetup() {
+        Debug.Log("OnGameSetup Method has been called, thank you Events");
+    }
 }

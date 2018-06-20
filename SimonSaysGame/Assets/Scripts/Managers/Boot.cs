@@ -40,6 +40,7 @@ public class Boot : MonoBehaviour
         manager_Event_ref.Initialize();
         manager_Sound_ref.Initialize();
         manager_UI_ref.Initialize();
+        manager_Game_ref.Initialize();
         yield return null;
         SceneManager.LoadScene (1, LoadSceneMode.Additive);
         SceneManager.LoadScene(2, LoadSceneMode.Additive);
