@@ -11,6 +11,7 @@ public class GameSequence : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         instance = this;
+        GLOBAL.instance.M_event.EVT_Button_Pushed += InsertPlayerInputToList;
 	}
 	
 	// Update is called once per frame
@@ -39,8 +40,8 @@ public class GameSequence : MonoBehaviour {
     }
 
     //This inserts a player input into the proper list for later use
-    public void InsertPlayerInputToList(int index, int input) {
-        playerInput.Insert(index, input);
+    public void InsertPlayerInputToList(int input) {
+        playerInput.Add(input);
     }
 
     //Compares both RandomSequence and PlayerInput Lists to check if player has it right
@@ -55,4 +56,5 @@ public class GameSequence : MonoBehaviour {
             Debug.Log("Wrong answer");
         }
     }
+
 }

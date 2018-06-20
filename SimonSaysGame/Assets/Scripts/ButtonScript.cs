@@ -20,6 +20,8 @@ public class ButtonScript : MonoBehaviour {
 
     //Main method button clicked here I add or remove behaviours on the button
     public void ButtonClicked() {
+
+        GLOBAL.instance.M_event.Fire_EVT_Button_Pushed(buttonID);
         ButtonAnimation();
         PlayButtonSound();
         StartCoroutine(ColorChange());

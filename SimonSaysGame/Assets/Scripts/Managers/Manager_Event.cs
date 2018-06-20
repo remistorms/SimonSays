@@ -8,7 +8,7 @@ public class Manager_Event : Manager {
 
 	public Action EVT_Game_Start;
 	public Action EVT_Game_Over;
-	public Action EVT_Got_Can;
+    public Action<int> EVT_Button_Pushed;
 
 
 	// Use this for initialization
@@ -34,12 +34,11 @@ public class Manager_Event : Manager {
 		}
 	}
 
-	public void Fire_EVT_Got_Can()
-	{
-		if (EVT_Got_Can != null) 
-		{
-			EVT_Got_Can ();	
-		}
-	}
+    public void Fire_EVT_Button_Pushed(int buttonID) {
+        if (EVT_Button_Pushed != null)
+        {
+            EVT_Button_Pushed(buttonID);
+        }
+    }
 
 }
