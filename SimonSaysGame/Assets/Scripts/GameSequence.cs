@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class GameSequence : MonoBehaviour {
 
+    public enum GameState {
+        None,
+        DisplaySequence,
+        GettingInput,
+        ShowResults
+    };
+
     public static GameSequence instance;
+    public GameState currentGameState;
     public List<int> randomSequence = new List<int>();
     public List<int> playerInput = new List<int>();
 
 	// Use this for initialization
 	void Start () {
         instance = this;
+        currentGameState = GameState.None;
         GLOBAL.instance.M_event.EVT_Button_Pushed += InsertPlayerInputToList;
 	}
 	

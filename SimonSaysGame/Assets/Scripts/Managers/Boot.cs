@@ -10,6 +10,7 @@ public class Boot : MonoBehaviour
     [SerializeField] Manager_Event manager_Event_ref;
     [SerializeField] Manager_Sound manager_Sound_ref;
     [SerializeField] Manager_UI manager_UI_ref;
+    [SerializeField] Manager_Game manager_Game_ref;
 
     private void Awake()
     {
@@ -43,7 +44,9 @@ public class Boot : MonoBehaviour
         SceneManager.LoadScene (1, LoadSceneMode.Additive);
         SceneManager.LoadScene(2, LoadSceneMode.Additive);
         yield return null;
+        //Manager_Game_ref.initialize();
         GLOBAL.instance.M_ui.ShowScreen(UIScreen.Enum_Screen.MainMenu);
+
     }
 
 }

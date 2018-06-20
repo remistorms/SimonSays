@@ -52,4 +52,12 @@ public class GridCreator : MonoBehaviour {
     void RecenterGrid() {
         //Do something to recenter
     }
+
+    //Enables or disables button colliders
+    void ManageButtonColliders(bool collidersState) {
+        foreach (var item in allButtons)
+        {
+            item.GetComponent<Collider>().enabled = collidersState;
+        }
+    }
 }

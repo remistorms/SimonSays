@@ -9,6 +9,7 @@ public class GLOBAL : MonoBehaviour {
     public Manager_Event M_event;
     public Manager_UI M_ui;
     public Manager_Sound M_sound;
+    public Manager_Game M_game;
 
     // Use this for initialization
     void Awake () {

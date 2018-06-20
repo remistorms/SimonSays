@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 1883202322}
   - component: {fileID: 1883202321}
   - component: {fileID: 1883202319}
+  - component: {fileID: 1883202324}
   - component: {fileID: 1883202323}
   m_Layer: 0
   m_Name: BootGO
@@ -171,6 +172,7 @@ MonoBehaviour:
   manager_Event_ref: {fileID: 1883202322}
   manager_Sound_ref: {fileID: 1883202321}
   manager_UI_ref: {fileID: 1883202319}
+  manager_Game_ref: {fileID: 1883202324}
 --- !u!114 &1883202321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,3 +226,15 @@ MonoBehaviour:
   M_event: {fileID: 1883202322}
   M_ui: {fileID: 1883202319}
   M_sound: {fileID: 1883202321}
+  M_game: {fileID: 1883202324}
+--- !u!114 &1883202324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1883202317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a095b5689d5fe40aa44ea23eda67f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
