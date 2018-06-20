@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//BASIC GAME LOOP 
 public class Manager_Game : Manager {
 
     public enum State {
