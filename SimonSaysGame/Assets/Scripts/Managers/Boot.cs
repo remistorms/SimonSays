@@ -39,10 +39,11 @@ public class Boot : MonoBehaviour
         manager_Event_ref.Initialize();
         manager_Sound_ref.Initialize();
         manager_UI_ref.Initialize();
-        
         yield return null;
         SceneManager.LoadScene (1, LoadSceneMode.Additive);
         SceneManager.LoadScene(2, LoadSceneMode.Additive);
+        yield return null;
+        GLOBAL.instance.M_ui.ShowScreen(UIScreen.Enum_Screen.MainMenu);
     }
 
 }
