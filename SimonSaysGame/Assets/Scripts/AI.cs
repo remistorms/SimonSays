@@ -6,9 +6,14 @@ public class AI : MonoBehaviour {
 
     private int score;
     public List<Node> nodes;
+    Presentation presentationRef;
+
 	// Use this for initialization
 	void Start () {
         score = 0;
+        presentationRef = GetComponent<Presentation>();
+
+        /*
         for (int i = 0; i < 20; i++)
         {
             Node[] nodeArray = GetSequence();
@@ -18,12 +23,15 @@ public class AI : MonoBehaviour {
             }
             Debug.Log(" ");
             score++;
-        }
+        }*/
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            presentationRef.DisplayNodeSequence(GetSequence());
+        }
 	}
 
     public Node[] GetSequence() {
