@@ -12,6 +12,8 @@ public class AI : MonoBehaviour {
 	void Start () {
         gameRef = GetComponent<Game>();
         presentationRef = GetComponent<Presentation>();
+        GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
+        GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
 
         /*
         for (int i = 0; i < 20; i++)
@@ -30,7 +32,7 @@ public class AI : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.S))
         {
-            presentationRef.DisplayNodeSequence(GetSequence());
+           // presentationRef.DisplayNodeSequence(GetSequence());
         }
 	}
 
@@ -66,5 +68,13 @@ public class AI : MonoBehaviour {
         {
             return 5;
         }
+    }
+
+    void OnGameStart() {
+        presentationRef.DisplayNodeSequence(GetSequence());
+    }
+
+    void OnSequenceCompleted() {
+        presentationRef.DisplayNodeSequence(GetSequence());
     }
 }
