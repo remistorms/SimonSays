@@ -13,6 +13,7 @@ public class Manager_Event : Manager {
     public Action EVT_Presentation_Finished;
     public Action<Node> EVT_Node_Pressed;
     public Action<int> EVT_Button_Pushed;
+    public Action EVT_Sequence_Completed;
 
 
 	// Use this for initialization
@@ -22,6 +23,10 @@ public class Manager_Event : Manager {
 	}
 
     //Better structure
+    public void Fire_EVT_Sequence_Completed(){
+        if (EVT_Sequence_Completed!= null) EVT_Sequence_Completed();
+    }
+
     public void Fire_EVT_Node_Pressed(Node node){
         if (EVT_Node_Pressed != null) EVT_Node_Pressed(node);
     }
