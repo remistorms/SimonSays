@@ -11,7 +11,12 @@ public class AI : MonoBehaviour {
         score = 0;
         for (int i = 0; i < 20; i++)
         {
-            Debug.Log(GetNumSequence());
+            Node[] nodeArray = GetSequence();
+            for (int j = 0; j < nodeArray.Length; j++)
+            {
+                Debug.Log(nodeArray[j].nodeID);
+            }
+            Debug.Log(" ");
             score++;
         }
 	}
@@ -21,8 +26,22 @@ public class AI : MonoBehaviour {
 		
 	}
 
-    public string[] GetSequence() {
-        return new string[0] ;
+    public Node[] GetSequence() {
+
+        //Get number sequence
+        int numSequence = GetNumSequence();
+        Node[] sequence = new Node[numSequence];
+        //Get a random number from the nodes array that this method will return
+        for (int i = 0; i < numSequence; i++)
+        {
+            int random = Random.Range(0, nodes.Count);
+            
+            Node selectedNode = nodes[random];
+            
+            sequence[i] = selectedNode;
+        }
+
+        return sequence;
     }
 
     //This one will give us the amount of node per difficulty
