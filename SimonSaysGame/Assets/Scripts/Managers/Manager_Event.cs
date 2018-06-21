@@ -9,6 +9,8 @@ public class Manager_Event : Manager {
 	public Action EVT_Game_Start;
 	public Action EVT_Game_Over;
     public Action EVT_Game_Setup;
+    public Action EVT_Presentation_Start;
+    public Action EVT_Presentation_Finished;
     public Action<int> EVT_Button_Pushed;
 
 
@@ -17,6 +19,15 @@ public class Manager_Event : Manager {
 	{
 		EM = this;
 	}
+
+    //Better structure
+    public void Fire_EVT_Presentation_Start(){
+        if (EVT_Presentation_Start != null) EVT_Presentation_Start();
+    }
+
+    public void Fire_EVT_Presentation_Finished(){
+        if (EVT_Presentation_Finished != null) EVT_Presentation_Finished();
+    }
 
     public void Fire_EVT_Game_Setup()
     {

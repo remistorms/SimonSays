@@ -16,6 +16,8 @@ public class Node : MonoBehaviour {
         nodeCollider.enabled = false;
         GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
         GLOBAL.instance.M_event.EVT_Game_Over += OnGameOver;
+        GLOBAL.instance.M_event.EVT_Presentation_Start += OnPresentationStarted;
+        GLOBAL.instance.M_event.EVT_Presentation_Finished += OnPresentationFinished;
     }
 
     void OnGameStart() {
@@ -28,9 +30,19 @@ public class Node : MonoBehaviour {
 
     public void OnButtonDown() {
         Debug.Log("Button Down");
+        FlashColor();
     }
 
     public void FlashColor() {
         transform.DOPunchScale(Vector3.one, 0.2f);
+    }
+
+    void OnPresentationStarted() {
+        nodeCollider.enabled = false;
+    }
+
+    void OnPresentationFinished()
+    {
+        nodeCollider.enabled = true;
     }
 }

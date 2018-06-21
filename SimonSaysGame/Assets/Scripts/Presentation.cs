@@ -22,6 +22,7 @@ public class Presentation : MonoBehaviour {
 
     IEnumerator DisplayNodesRoutine(Node[] nodes) {
         //Fire presentation Start EVENT for buttons to listen
+        GLOBAL.instance.M_event.Fire_EVT_Presentation_Start();
         yield return null;
         for (int i = 0; i < nodes.Length; i++)
         {
@@ -31,5 +32,6 @@ public class Presentation : MonoBehaviour {
 
         validatorRef.Activate(nodes);
         //Fire END presentation EVENT
+        GLOBAL.instance.M_event.Fire_EVT_Presentation_Finished();
     }
 }
