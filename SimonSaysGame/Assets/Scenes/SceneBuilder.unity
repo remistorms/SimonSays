@@ -113,6 +113,58 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &786465197 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400014, guid: c11a699fddb7e9d469a7b86094d91fb4, type: 3}
+  m_PrefabInternal: {fileID: 1963863830}
+--- !u!137 &1874680221 stripped
+SkinnedMeshRenderer:
+  m_PrefabParentObject: {fileID: 13700004, guid: c11a699fddb7e9d469a7b86094d91fb4,
+    type: 3}
+  m_PrefabInternal: {fileID: 1963863830}
+--- !u!1 &1930217108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1930217110}
+  - component: {fileID: 1930217109}
+  m_Layer: 0
+  m_Name: StageMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1930217109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1930217108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aee911a839c96b14a8df47f68bad0891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curtainsMesh: {fileID: 1874680221}
+  outsideWallsMesh: {fileID: 1981640372}
+--- !u!4 &1930217110
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1930217108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 786465197}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1936399321
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,7 +316,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1930217110}
     m_Modifications:
     - target: {fileID: 13700000, guid: c11a699fddb7e9d469a7b86094d91fb4, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
@@ -288,7 +340,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: c11a699fddb7e9d469a7b86094d91fb4, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: c11a699fddb7e9d469a7b86094d91fb4, type: 3}
       propertyPath: m_LocalRotation.y
@@ -296,7 +348,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: c11a699fddb7e9d469a7b86094d91fb4, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: c11a699fddb7e9d469a7b86094d91fb4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -304,7 +356,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: c11a699fddb7e9d469a7b86094d91fb4, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: c11a699fddb7e9d469a7b86094d91fb4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -501,6 +553,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c11a699fddb7e9d469a7b86094d91fb4, type: 3}
   m_IsPrefabParent: 0
+--- !u!23 &1981640372 stripped
+MeshRenderer:
+  m_PrefabParentObject: {fileID: 2300012, guid: c11a699fddb7e9d469a7b86094d91fb4,
+    type: 3}
+  m_PrefabInternal: {fileID: 1963863830}
 --- !u!1 &2131281450
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,5 +621,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 61.881004, y: 0, z: 0}
