@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Node : MonoBehaviour {
 
@@ -27,5 +28,9 @@ public class Node : MonoBehaviour {
 
     public void OnButtonDown() {
         Debug.Log("Button Down");
+    }
+
+    public void FlashColor() {
+        transform.DOPunchScale(Vector3.one, 0.2f);
     }
 }

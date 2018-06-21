@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Presentation : MonoBehaviour {
 
+    Validator validatorRef;
 	// Use this for initialization
 	void Start () {
-		
+        validatorRef = GetComponent<Validator>();
 	}
 	
 	// Update is called once per frame
@@ -16,5 +17,19 @@ public class Presentation : MonoBehaviour {
 
     public void DisplayNodeSequence(Node[] nodes) {
         Debug.Log("Displaye Node Sequence Method");
+        StartCoroutine(DisplayNodesRoutine(nodes));
+    }
+
+    IEnumerator DisplayNodesRoutine(Node[] nodes) {
+        //Fire presentation Start EVENT for buttons to listen
+        yield return null;
+        for (int i = 0; i < nodes.Length; i++)
+        {
+            nodes[i].FlashColor();
+            yield return new WaitForSeconds(1.0f);
+        }
+
+        validatorRef.Activate(nodes);
+        //Fire END presentation EVENT
     }
 }
