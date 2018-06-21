@@ -31,6 +31,7 @@ public class Node : MonoBehaviour {
     public void OnButtonDown() {
         Debug.Log("Button Down");
         FlashColor();
+        GLOBAL.instance.M_event.Fire_EVT_Node_Pressed(this);
     }
 
     public void FlashColor() {

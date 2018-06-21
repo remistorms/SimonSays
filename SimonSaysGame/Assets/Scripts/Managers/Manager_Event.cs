@@ -11,6 +11,7 @@ public class Manager_Event : Manager {
     public Action EVT_Game_Setup;
     public Action EVT_Presentation_Start;
     public Action EVT_Presentation_Finished;
+    public Action<Node> EVT_Node_Pressed;
     public Action<int> EVT_Button_Pushed;
 
 
@@ -21,6 +22,10 @@ public class Manager_Event : Manager {
 	}
 
     //Better structure
+    public void Fire_EVT_Node_Pressed(Node node){
+        if (EVT_Node_Pressed != null) EVT_Node_Pressed(node);
+    }
+
     public void Fire_EVT_Presentation_Start(){
         if (EVT_Presentation_Start != null) EVT_Presentation_Start();
     }
