@@ -38,6 +38,8 @@ public class Validator : MonoBehaviour {
                 Debug.Log("Succesfully Completed Sequence");
                 //Fire event 
                 GLOBAL.instance.M_event.Fire_EVT_Sequence_Completed();
+                localNodes = null;
+                index = -1;
             }
         }
         else {

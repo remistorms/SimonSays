@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class AI : MonoBehaviour {
 
-    private int score;
+    private Game gameRef;
     public List<Node> nodes;
     Presentation presentationRef;
 
 	// Use this for initialization
 	void Start () {
-        score = 0;
+        gameRef = GetComponent<Game>();
         presentationRef = GetComponent<Presentation>();
 
         /*
@@ -54,11 +54,11 @@ public class AI : MonoBehaviour {
 
     //This one will give us the amount of node per difficulty
     public int GetNumSequence() {
-        if (score < 3)
+        if (gameRef.score < 3)
         {
             return 3;
         }
-        else if (score < 6)
+        else if (gameRef.score < 6)
         {
             return 4;
         }

@@ -18,6 +18,7 @@ public class Node : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Game_Over += OnGameOver;
         GLOBAL.instance.M_event.EVT_Presentation_Start += OnPresentationStarted;
         GLOBAL.instance.M_event.EVT_Presentation_Finished += OnPresentationFinished;
+        GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
     }
 
     void OnGameStart() {
@@ -45,5 +46,9 @@ public class Node : MonoBehaviour {
     void OnPresentationFinished()
     {
         nodeCollider.enabled = true;
+    }
+
+    void OnSequenceCompleted() {
+        nodeCollider.enabled = false;
     }
 }
