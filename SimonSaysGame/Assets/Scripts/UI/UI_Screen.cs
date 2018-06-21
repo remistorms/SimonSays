@@ -12,8 +12,6 @@ public abstract class UI_Screen : MonoBehaviour {
         PostGame//3
     }
 
-    public Enum_Screen screenType;
-
     private CanvasGroup canvasGroupRef;
     private RectTransform rectTransformRef;
 
@@ -26,15 +24,18 @@ public abstract class UI_Screen : MonoBehaviour {
         Hide();
         //Register this screen to the UI Manager
         //GLOBAL.instance.M_ui.RegisterScreen(this);
-
+        GLOBAL.instance.M_ui.Register_Screen(this);
+        OnStart();
     }
+
+    protected virtual void OnStart() { }
 
     public void Show()
     {
         rectTransformRef.anchoredPosition = Vector2.zero;
         canvasGroupRef.alpha = 1;
         //
-        if (screenType != Enum_Screen.InGame)
+        if (GetScreenType() != Enum_Screen.InGame)
         {
             canvasGroupRef.interactable = true;
             canvasGroupRef.blocksRaycasts = true;

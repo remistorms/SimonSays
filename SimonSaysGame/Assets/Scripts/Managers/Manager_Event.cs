@@ -14,6 +14,7 @@ public class Manager_Event : Manager {
     public Action<Node> EVT_Node_Pressed;
     public Action<int> EVT_Button_Pushed;
     public Action EVT_Sequence_Completed;
+    public Action<int> EVT_Score_Changed;
 
 
 	// Use this for initialization
@@ -23,6 +24,11 @@ public class Manager_Event : Manager {
 	}
 
     //Better structure
+    public void Fire_EVT_Score_Changed(int score)
+    {
+        if (EVT_Score_Changed != null) EVT_Score_Changed(score);
+    }
+
     public void Fire_EVT_Sequence_Completed(){
         if (EVT_Sequence_Completed!= null) EVT_Sequence_Completed();
     }
