@@ -14,8 +14,10 @@ public class Stage : MonoBehaviour {
     };
 
     public State stageState;
+    public AudioSource audioSource;
     public SkinnedMeshRenderer curtainsMesh;
     public MeshRenderer outsideWallsMesh;
+    public CanvasGroup titleCanvasGroup;
 
     private void Start()
     {
@@ -24,6 +26,7 @@ public class Stage : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Game_Over += OnGameOver;
         GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
         GLOBAL.instance.M_event.EVT_Score_Changed += OnScoreChanged;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -100,10 +103,13 @@ public class Stage : MonoBehaviour {
             outsideWallsMesh.material.color.b,
             1f);
         curtainsMesh.SetBlendShapeWeight(0, 0);
+        titleCanvasGroup.gameObject.SetActive(true);
+        titleCanvasGroup.alpha = 1;
     }
 
     void OnGameSetup() {
         ResetStage();
+        audioSource.Stop();
     }
 
     void OnGameOver() {
@@ -113,9 +119,22 @@ public class Stage : MonoBehaviour {
     void OnGameStart() {
         OpenCurtains(1);
         FadeOutWalls(1);
+        FadeTitle(1);
+        audioSource.clip = GLOBAL.instance.M_sound.backgroundMusic[Random.Range(0, GLOBAL.instance.M_sound.backgroundMusic.Length)];
+        audioSource.Play();
     }
 
     void OnScoreChanged(int score) {
 
+    }
+
+    void FadeTitle(float time) {
+        StartCoroutine(FadeTitleRoutine(time));
+    }
+
+    IEnumerator FadeTitleRoutine(float time) {
+        titleCanvasGroup.DOFade(0, time);
+        yield return new WaitForSeconds(time);
+        titleCanvasGroup.gameObject.SetActive(false);
     }
 }

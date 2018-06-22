@@ -37,7 +37,7 @@ public class Manager_Game : Manager {
     public void OnGameSetup() {
         Debug.Log("OnGameSetup Method has been called, thank you Events");
         state = State.Setup;
-        StartCoroutine(DelayedStartRoutine());
+        StartCoroutine(DelayedStartRoutine(5));
     }
 
     public void OnGameOver() {
@@ -45,8 +45,8 @@ public class Manager_Game : Manager {
         GLOBAL.instance.M_ui.ShowScreen(UI_Screen.Enum_Screen.PostGame);
     }
 
-    IEnumerator DelayedStartRoutine() {
-        yield return new WaitForSeconds(2);
+    IEnumerator DelayedStartRoutine(float delay) {
+        yield return new WaitForSeconds(delay);
         GLOBAL.instance.M_event.Fire_EVT_Game_Start();
         state = State.Start;
     }

@@ -60,12 +60,12 @@ public class AI : MonoBehaviour {
     }
 
     void OnGameStart() {
-        StartCoroutine(StartWithDelay(5));
+        StartCoroutine(StartWithDelay(6));
     }
 
     void OnSequenceCompleted() {
         //presentationRef.DisplayNodeSequence(GetSequence());
-        StartCoroutine(StartWithDelay(2));
+        StartCoroutine(StartWithDelay(3));
     }
 
     IEnumerator StartWithDelay(float delay) {

@@ -184,6 +184,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d98b118f465ea409e6bee99e72e967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic:
+  - {fileID: 8300000, guid: f4dbc85d77f9cb247b103dcd9f87963f, type: 3}
+  - {fileID: 8300000, guid: 325fd3b5f9d572442a646280520d0b12, type: 3}
+  - {fileID: 8300000, guid: cb8b824d70e029245bd8b6c856a43f0b, type: 3}
+  - {fileID: 8300000, guid: 58685a008409e024cb03fc3fd107f31d, type: 3}
+  failSound: {fileID: 0}
   musicNotes:
   - {fileID: 8300000, guid: a24427f05fe182049ba9f6af6b918553, type: 3}
   - {fileID: 8300000, guid: c5386511fcc0ce34e9bc8ee3e9f38cd6, type: 3}
@@ -238,3 +244,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a095b5689d5fe40aa44ea23eda67f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 0
