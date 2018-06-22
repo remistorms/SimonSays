@@ -12,6 +12,8 @@ ModelImporter:
     2100000: Trunk__InsideTrunk_png
     2100002: Bark__OutsideBark_png
     2100004: Material__InsideBark_png
+    2100006: None__Baked
+    2100008: unnamed
     2300000: Trunk_Exterior
     2300002: Trunk_Interior
     3300000: Trunk_Exterior
