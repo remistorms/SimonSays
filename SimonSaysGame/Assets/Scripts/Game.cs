@@ -10,6 +10,7 @@ public class Game : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Game_Setup += OnGameSetup;
         GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
         GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
+        GLOBAL.instance.gameLogic = this;
     }
 
     void OnGameStart() {

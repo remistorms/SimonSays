@@ -6,7 +6,9 @@ using DG.Tweening;
 
 public class UI_3D : MonoBehaviour {
 
-    public CanvasGroup[] worldCanvasGroups;
+    public TeacherCanvas teacherCanvas;
+    public StudentCanvas studentsCanvas;
+   // public ScoreCanvas scoreCanvas;
 
     private void Start()
     {
@@ -17,11 +19,11 @@ public class UI_3D : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Presentation_Finished += OnPresentationFinished;
         GLOBAL.instance.M_event.EVT_Score_Changed += OnScoreChanged;
         GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
+        GLOBAL.instance.ui3D = this;
     }
 
     public void StartGame() {
-        GLOBAL.instance.M_event.Fire_EVT_Game_Setup();
-        worldCanvasGroups[0].DOFade(0, 0.5f);
+       // GLOBAL.instance.M_event.Fire_EVT_Game_Setup();
     }
 
     void OnGameStart() {
