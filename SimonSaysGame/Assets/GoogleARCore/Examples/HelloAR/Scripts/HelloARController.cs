@@ -124,6 +124,7 @@ namespace GoogleARCore.Examples.HelloAR
                     {
                         // Instantiate Andy model at the hit pose.
                         var andyObject = Instantiate(AndyAndroidPrefab, hit.Pose.position, hit.Pose.rotation);
+                        andyObject.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
 
                         // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
                         andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
@@ -134,6 +135,7 @@ namespace GoogleARCore.Examples.HelloAR
 
                         // Make Andy model a child of the anchor.
                         andyObject.transform.parent = anchor.transform;
+                        
 
                         hasInstantiatedPrefab = true;
                     }

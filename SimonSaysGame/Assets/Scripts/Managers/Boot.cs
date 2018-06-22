@@ -45,6 +45,7 @@ public class Boot : MonoBehaviour
         SceneManager.LoadScene (1, LoadSceneMode.Additive);
         SceneManager.LoadScene(2, LoadSceneMode.Additive);
         yield return null;
+        SceneManager.LoadScene(3, LoadSceneMode.Additive);
         //Manager_Game_ref.initialize();
         GLOBAL.instance.M_ui.ShowScreen(UI_Screen.Enum_Screen.MainMenu);
 
