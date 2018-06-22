@@ -5,6 +5,7 @@ using DG.Tweening;
 
 public class Node : MonoBehaviour {
 
+    OwlBehaviour owlBehaviour;
     BoxCollider nodeCollider;
     public string nodeID;
 
@@ -19,6 +20,7 @@ public class Node : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Presentation_Start += OnPresentationStarted;
         GLOBAL.instance.M_event.EVT_Presentation_Finished += OnPresentationFinished;
         GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
+        owlBehaviour = GetComponent<OwlBehaviour>();
     }
 
     void OnGameStart() {
@@ -36,7 +38,8 @@ public class Node : MonoBehaviour {
     }
 
     public void FlashColor() {
-        transform.DOPunchScale(Vector3.one, 0.2f);
+        //transform.DOPunchScale(Vector3.one, 0.2f);
+        owlBehaviour.OwlJump();
     }
 
     void OnPresentationStarted() {

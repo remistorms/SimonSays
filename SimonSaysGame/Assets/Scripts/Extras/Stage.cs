@@ -111,7 +111,8 @@ public class Stage : MonoBehaviour {
     }
 
     void OnGameStart() {
-
+        OpenCurtains(1);
+        FadeOutWalls(1);
     }
 
     void OnScoreChanged(int score) {

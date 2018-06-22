@@ -15,17 +15,6 @@ public class AI : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
         GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
 
-        /*
-        for (int i = 0; i < 20; i++)
-        {
-            Node[] nodeArray = GetSequence();
-            for (int j = 0; j < nodeArray.Length; j++)
-            {
-                Debug.Log(nodeArray[j].nodeID);
-            }
-            Debug.Log(" ");
-            score++;
-        }*/
 	}
 	
 	// Update is called once per frame
@@ -54,7 +43,7 @@ public class AI : MonoBehaviour {
         return sequence;
     }
 
-    //This one will give us the amount of node per difficulty
+    //This one will give us the amount of nodes per difficulty
     public int GetNumSequence() {
         if (gameRef.score < 3)
         {
@@ -71,10 +60,16 @@ public class AI : MonoBehaviour {
     }
 
     void OnGameStart() {
-        presentationRef.DisplayNodeSequence(GetSequence());
+        StartCoroutine(StartWithDelay(5));
     }
 
     void OnSequenceCompleted() {
+        //presentationRef.DisplayNodeSequence(GetSequence());
+        StartCoroutine(StartWithDelay(2));
+    }
+
+    IEnumerator StartWithDelay(float delay) {
+        yield return new WaitForSeconds(delay);
         presentationRef.DisplayNodeSequence(GetSequence());
     }
 }
