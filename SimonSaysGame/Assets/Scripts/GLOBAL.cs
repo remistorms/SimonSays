@@ -7,7 +7,7 @@ public class GLOBAL : MonoBehaviour {
     public static GLOBAL instance;
     //References for future uses in game
     public Manager_Event M_event;
-    public Manager_UI M_ui;
+    //public Manager_UI M_ui;
     public Manager_Sound M_sound;
     public Manager_Game M_game;
     public UI_3D ui3D;

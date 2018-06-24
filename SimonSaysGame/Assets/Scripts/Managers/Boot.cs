@@ -43,7 +43,7 @@ public class Boot : MonoBehaviour
         manager_Game_ref.Initialize();
         yield return null;
         //SceneManager.LoadScene (1, LoadSceneMode.Additive);
-        SceneManager.LoadScene(1, LoadSceneMode.Additive);
+       // SceneManager.LoadScene(1, LoadSceneMode.Additive);
         yield return null;
         //GLOBAL.instance.ui3D = GameObject.FindGameObjectWithTag("3DUI").GetComponent<UI_3D>();
         //yield return null;

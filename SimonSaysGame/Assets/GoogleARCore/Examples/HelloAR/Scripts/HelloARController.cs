@@ -71,9 +71,6 @@ namespace GoogleARCore.Examples.HelloAR
         /// </summary>
         private bool m_IsQuitting = false;
 
-        //This is my code to instantiate the Main Scene GO
-        public bool hasInstantiatedPrefab = false;
-
         /// <summary>
         /// The Unity Update() method.
         /// </summary>
@@ -89,7 +86,6 @@ namespace GoogleARCore.Examples.HelloAR
                 if (m_AllPlanes[i].TrackingState == TrackingState.Tracking)
                 {
                     showSearchingUI = false;
-                    //Show Click to place the game maybe
                     break;
                 }
             }
@@ -120,26 +116,18 @@ namespace GoogleARCore.Examples.HelloAR
                 }
                 else
                 {
-                    if (!hasInstantiatedPrefab)
-                    {
-                        // Instantiate Andy model at the hit pose.
-                        var andyObject = Instantiate(AndyAndroidPrefab, hit.Pose.position, hit.Pose.rotation);
-                        andyObject.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+                    // Instantiate Andy model at the hit pose.
+                    var andyObject = Instantiate(AndyAndroidPrefab, hit.Pose.position, hit.Pose.rotation);
 
-                        // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
-                        andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
+                    // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
+                    andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
 
-                        // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
-                        // world evolves.
-                        var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+                    // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
+                    // world evolves.
+                    var anchor = hit.Trackable.CreateAnchor(hit.Pose);
 
-                        // Make Andy model a child of the anchor.
-                        andyObject.transform.parent = anchor.transform;
-                        
-
-                        hasInstantiatedPrefab = true;
-                    }
-                    
+                    // Make Andy model a child of the anchor.
+                    andyObject.transform.parent = anchor.transform;
                 }
             }
         }

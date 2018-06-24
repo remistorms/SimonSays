@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1761204650641480}
+  m_IsPrefabParent: 1
+--- !u!1 &1761204650641480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4986220535373714}
+  - component: {fileID: 114933113323774332}
+  - component: {fileID: 114806315058255018}
+  - component: {fileID: 114054025661344326}
+  - component: {fileID: 114343411565266300}
+  - component: {fileID: 114533318630506174}
+  m_Layer: 0
+  m_Name: BootGO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4986220535373714
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1761204650641480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114054025661344326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1761204650641480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d98b118f465ea409e6bee99e72e967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundMusic:
+  - {fileID: 8300000, guid: f4dbc85d77f9cb247b103dcd9f87963f, type: 3}
+  - {fileID: 8300000, guid: 325fd3b5f9d572442a646280520d0b12, type: 3}
+  - {fileID: 8300000, guid: cb8b824d70e029245bd8b6c856a43f0b, type: 3}
+  - {fileID: 8300000, guid: 58685a008409e024cb03fc3fd107f31d, type: 3}
+  failSound: {fileID: 0}
+  musicNotes:
+  - {fileID: 8300000, guid: a24427f05fe182049ba9f6af6b918553, type: 3}
+  - {fileID: 8300000, guid: c5386511fcc0ce34e9bc8ee3e9f38cd6, type: 3}
+  - {fileID: 8300000, guid: bf4695d5fadd39246893265a8fa5efe4, type: 3}
+  - {fileID: 8300000, guid: 10311b560087d6b43b0cbe7bfc77d2db, type: 3}
+  - {fileID: 8300000, guid: 896e18f0a94f115429cf8cb0dff84d26, type: 3}
+  - {fileID: 8300000, guid: 70e6b1634783df64f8df5f0cfa7c3e2d, type: 3}
+  - {fileID: 8300000, guid: 192a072a82fa19b44b2189a5835aaaee, type: 3}
+  - {fileID: 8300000, guid: c9d94f1b8becea249aef8f07bc214ee0, type: 3}
+  - {fileID: 8300000, guid: 6f6afb7dd3c7cf94aa7fecb71fbc3bd5, type: 3}
+  - {fileID: 8300000, guid: e9e725541b3a8e04898ff5301834c320, type: 3}
+  - {fileID: 8300000, guid: e4b3f4f58e6c52847936cd55aa55d8f0, type: 3}
+  - {fileID: 8300000, guid: 5a219d25c4214ec4fb645e0ddce69ce1, type: 3}
+  - {fileID: 8300000, guid: e92eec2f8da693349b225386ac9f1f33, type: 3}
+  - {fileID: 8300000, guid: 5da8c117180dfe341acba7639bf98552, type: 3}
+  - {fileID: 8300000, guid: 96dfdb67b9eeae948b29a6d6edcfe557, type: 3}
+  - {fileID: 8300000, guid: fa757ebcff3b00c4688cb9eb2ad6bd01, type: 3}
+--- !u!114 &114343411565266300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1761204650641480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a095b5689d5fe40aa44ea23eda67f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+--- !u!114 &114533318630506174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1761204650641480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0fbbcef46e28547b42abc32ed982ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  M_event: {fileID: 114806315058255018}
+  M_ui: {fileID: 0}
+  M_sound: {fileID: 114054025661344326}
+  M_game: {fileID: 114343411565266300}
+  ui3D: {fileID: 0}
+  gameLogic: {fileID: 0}
+--- !u!114 &114806315058255018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1761204650641480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26907388793d8c841af4155905535ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114933113323774332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1761204650641480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 356cebe0b860e13458c4e519a0afbc1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager_Event_ref: {fileID: 114806315058255018}
+  manager_Sound_ref: {fileID: 114054025661344326}
+  manager_UI_ref: {fileID: 0}
+  manager_Game_ref: {fileID: 114343411565266300}

@@ -69,7 +69,7 @@ public class Stage : MonoBehaviour {
             0f);
         outsideTrunk.material.DOFade(1, time);
         yield return new WaitForSeconds(time);
-        insideTrunk.gameObject.SetActive(false);
+        //insideTrunk.gameObject.SetActive(false);
              
     }
 

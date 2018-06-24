@@ -8,7 +8,10 @@ public class UI_3D : MonoBehaviour {
 
     public TeacherCanvas teacherCanvas;
     public StudentCanvas studentsCanvas;
-   // public ScoreCanvas scoreCanvas;
+    // public ScoreCanvas scoreCanvas;
+    public Camera eventCamera;
+    public Canvas canvas;
+    public GraphicRaycaster raycaster;
 
     private void Start()
     {
@@ -20,6 +23,10 @@ public class UI_3D : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Score_Changed += OnScoreChanged;
         GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
         GLOBAL.instance.ui3D = this;
+        eventCamera = Camera.main;
+        canvas = gameObject.GetComponent<Canvas>();
+        canvas.renderMode = RenderMode.WorldSpace;
+
     }
 
     public void StartGame() {
@@ -53,5 +60,9 @@ public class UI_3D : MonoBehaviour {
 
     void OnSequenceCompleted()
     {
+    }
+
+    public void PlayButtonPressed() {
+        GLOBAL.instance.M_event.EVT_Game_Setup();
     }
 }

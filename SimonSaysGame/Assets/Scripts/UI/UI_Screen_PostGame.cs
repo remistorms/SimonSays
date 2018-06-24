@@ -11,7 +11,7 @@ public class UI_Screen_PostGame : UI_Screen {
 
     public void ShowGameUI()
     {
-        GLOBAL.instance.M_ui.ShowScreen(UI_Screen.Enum_Screen.InGame);
+        //GLOBAL.instance.M_ui.ShowScreen(UI_Screen.Enum_Screen.InGame);
         //Fire event game setup
         GLOBAL.instance.M_event.Fire_EVT_Game_Setup();
         Debug.Log("Show Game UI");

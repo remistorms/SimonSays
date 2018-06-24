@@ -24,7 +24,7 @@ public abstract class UI_Screen : MonoBehaviour {
         Hide();
         //Register this screen to the UI Manager
         //GLOBAL.instance.M_ui.RegisterScreen(this);
-        GLOBAL.instance.M_ui.Register_Screen(this);
+       // GLOBAL.instance.M_ui.Register_Screen(this);
         OnStart();
     }
 
