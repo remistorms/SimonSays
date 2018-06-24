@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using GoogleARCore;
 
 public class Manager_Event : Manager {
 
@@ -15,6 +16,7 @@ public class Manager_Event : Manager {
     public Action<int> EVT_Button_Pushed;
     public Action EVT_Sequence_Completed;
     public Action<int> EVT_Score_Changed;
+    public Action<TrackableHit> EVT_AR_HitOnPlane;
 
 
 	// Use this for initialization
@@ -22,6 +24,12 @@ public class Manager_Event : Manager {
 	{
 		EM = this;
 	}
+
+    //Better structure
+    public void Fire_EVT_AR_HitOnPlane(TrackableHit hit)
+    {
+        if (EVT_AR_HitOnPlane != null) EVT_AR_HitOnPlane(hit);
+    }
 
     //Better structure
     public void Fire_EVT_Score_Changed(int score)

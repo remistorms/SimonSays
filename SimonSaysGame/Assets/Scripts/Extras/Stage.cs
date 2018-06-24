@@ -7,15 +7,12 @@ using UnityEngine.UI;
 
 public class Stage : MonoBehaviour {
 
-    public enum State {
-        None,
-        Closed,
-        Open
-    };
+   
 
-    public State stageState;
+    //public State stageState;
     public AudioSource audioSource;
     //public SkinnedMeshRenderer curtainsMesh;
+    public GameObject[] insideObjects;
     public MeshRenderer outsideTrunk, insideTrunk;
     public CanvasGroup titleCanvasGroup;
 
@@ -27,6 +24,10 @@ public class Stage : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
         GLOBAL.instance.M_event.EVT_Score_Changed += OnScoreChanged;
         audioSource = GetComponent<AudioSource>();
+        foreach (var item in insideObjects)
+        {
+            item.SetActive(false);
+        }
 
     }
 
@@ -52,6 +53,10 @@ public class Stage : MonoBehaviour {
     IEnumerator FadeOutWallsRoutine(float time) {
         outsideTrunk.material.DOFade(0, time);
         insideTrunk.gameObject.SetActive(true);
+        foreach (var item in insideObjects)
+        {
+            item.SetActive(true);
+        }
         yield return new WaitForSeconds(time);
         outsideTrunk.gameObject.SetActive(false);
        
@@ -106,7 +111,7 @@ public class Stage : MonoBehaviour {
     }
 
     public void ResetStage() {
-        stageState = State.Closed;
+       // stageState = State.Closed;
         outsideTrunk.gameObject.SetActive(true);
         insideTrunk.gameObject.SetActive(false);
         outsideTrunk.material.color = new Color(outsideTrunk.material.color.r,
