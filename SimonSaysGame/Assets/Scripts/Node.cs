@@ -10,7 +10,7 @@ public class Node : MonoBehaviour {
     public string nodeID;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
       
         nodeID = gameObject.name.Substring(gameObject.name.Length-2);
         nodeCollider = GetComponent<BoxCollider>();

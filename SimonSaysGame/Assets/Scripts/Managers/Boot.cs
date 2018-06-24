@@ -9,7 +9,7 @@ public class Boot : MonoBehaviour
     
     [SerializeField] Manager_Event manager_Event_ref;
     [SerializeField] Manager_Sound manager_Sound_ref;
-   // [SerializeField] Manager_UI manager_UI_ref;
+    [SerializeField] Manager_UI manager_UI_ref;
     [SerializeField] Manager_Game manager_Game_ref;
 
     private void Awake()
@@ -42,7 +42,11 @@ public class Boot : MonoBehaviour
         manager_UI_ref.Initialize();
         manager_Game_ref.Initialize();
 <<<<<<< HEAD
+<<<<<<< HEAD
         //yield return null;
+=======
+        yield return null;
+>>>>>>> parent of 335265f... NOT WORKING
         //SceneManager.LoadScene (1, LoadSceneMode.Additive);
        // SceneManager.LoadScene(1, LoadSceneMode.Additive);
 =======

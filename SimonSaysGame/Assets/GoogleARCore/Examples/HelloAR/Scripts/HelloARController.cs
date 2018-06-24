@@ -111,17 +111,11 @@ namespace GoogleARCore.Examples.HelloAR
                 if ((hit.Trackable is DetectedPlane) &&
                     Vector3.Dot(FirstPersonCamera.transform.position - hit.Pose.position,
                         hit.Pose.rotation * Vector3.up) < 0)
-
-                        //
                 {
                     Debug.Log("Hit at back of the current DetectedPlane");
                 }
                 else
                 {
-                    GLOBAL.instance.M_event.Fire_EVT_AR_HitOnPlane(hit);
-                    DebuggerText.instance.Debug("Clicked on plane");
-                    /*
-                    DebuggerText.instance.Debug("Hit 3d plane on:" + hit.Pose.position.ToString());
                     // Instantiate Andy model at the hit pose.
                     var andyObject = Instantiate(AndyAndroidPrefab, hit.Pose.position, hit.Pose.rotation);
 
@@ -133,7 +127,7 @@ namespace GoogleARCore.Examples.HelloAR
                     var anchor = hit.Trackable.CreateAnchor(hit.Pose);
 
                     // Make Andy model a child of the anchor.
-                    andyObject.transform.parent = anchor.transform;*/
+                    andyObject.transform.parent = anchor.transform;
                 }
             }
         }

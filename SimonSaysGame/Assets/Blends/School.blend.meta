@@ -14,8 +14,6 @@ ModelImporter:
     100016: Inside_School
     100018: School_Outside
     100020: Inside_School_001
-    100022: Outside_School
-    100024: Windows
     400000: blackboard
     400002: Cube
     400004: //RootNode
@@ -27,14 +25,11 @@ ModelImporter:
     400016: Inside_School
     400018: School_Outside
     400020: Inside_School_001
-    400022: Outside_School
-    400024: Windows
     2100000: None__OutsideBark_png
     2100002: unnamed
     2100004: None__wood2_png
     2100006: None__Trunk_01_jpg
     2100008: None__6833123861_50d8295b1b_b_jpg
-    2100010: None__BakedInside_png
     2300000: blackboard
     2300002: Cube
     2300004: School_Inside
@@ -45,8 +40,6 @@ ModelImporter:
     2300014: Inside_School
     2300016: School_Outside
     2300018: Inside_School_001
-    2300020: Outside_School
-    2300022: Windows
     3300000: blackboard
     3300002: Cube
     3300004: School_Inside
@@ -57,8 +50,6 @@ ModelImporter:
     3300014: Inside_School
     3300016: School_Outside
     3300018: Inside_School_001
-    3300020: Outside_School
-    3300022: Windows
     4300000: Cube
     4300002: blackboard
     4300004: School_Inside
@@ -69,8 +60,6 @@ ModelImporter:
     4300014: Inside_School
     4300016: School_Outside
     4300018: Inside_School_001
-    4300020: Windows
-    4300022: Outside_School
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
