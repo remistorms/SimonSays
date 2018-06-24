@@ -55,7 +55,7 @@ public class Boot : MonoBehaviour
         SceneManager.LoadScene(2, LoadSceneMode.Additive);
 >>>>>>> parent of ad25d2e... WORKS after some tweaks
         yield return null;
-        //SceneManager.LoadScene(3, LoadSceneMode.Additive);
+        SceneManager.LoadScene(3, LoadSceneMode.Additive);
         //Manager_Game_ref.initialize();
         GLOBAL.instance.M_ui.ShowScreen(UI_Screen.Enum_Screen.MainMenu);
 
