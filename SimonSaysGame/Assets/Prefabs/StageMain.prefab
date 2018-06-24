@@ -550,6 +550,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1138173303789732
 GameObject:
   m_ObjectHideFlags: 1
@@ -584,6 +585,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 --- !u!1 &1144574304940424
 GameObject:
   m_ObjectHideFlags: 1
@@ -827,23 +830,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1206739555714028
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224398445624137446}
-  - component: {fileID: 225386344733667716}
-  - component: {fileID: 114991193127064708}
-  m_Layer: 0
-  m_Name: StudentsCanvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1210203081852280
 GameObject:
   m_ObjectHideFlags: 1
@@ -968,23 +954,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1241828941927614
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224639006399438030}
-  - component: {fileID: 222190027280744544}
-  - component: {fileID: 114288267731615900}
-  m_Layer: 0
-  m_Name: Owl_Numbers_06
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1243320615255536
 GameObject:
   m_ObjectHideFlags: 1
@@ -1000,6 +969,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1244752601862364
 GameObject:
   m_ObjectHideFlags: 1
@@ -1034,6 +1004,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 --- !u!1 &1252921333814998
 GameObject:
   m_ObjectHideFlags: 1
@@ -1214,23 +1186,6 @@ GameObject:
   - component: {fileID: 4274827492935850}
   m_Layer: 0
   m_Name: tail.001_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1300549352343632
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224279170762274170}
-  - component: {fileID: 222776916236961560}
-  - component: {fileID: 114175269229076024}
-  m_Layer: 0
-  m_Name: Owl_Numbers_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1622,6 +1577,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1377032976231790
 GameObject:
   m_ObjectHideFlags: 1
@@ -1640,6 +1596,26 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!1 &1388906540846512
+=======
+--- !u!1 &1374112647980536
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224471786162060262}
+  - component: {fileID: 222277363486319878}
+  - component: {fileID: 114346563052606120}
+  m_Layer: 0
+  m_Name: TextMeshPro Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1388906540846512
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1649,23 +1625,6 @@ GameObject:
   - component: {fileID: 4697776077827410}
   m_Layer: 0
   m_Name: tail.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1390346791857724
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224051843713058366}
-  - component: {fileID: 114509137207544944}
-  - component: {fileID: 225398636451462382}
-  m_Layer: 0
-  m_Name: Teacher_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1681,23 +1640,6 @@ GameObject:
   - component: {fileID: 4905991529446588}
   m_Layer: 0
   m_Name: Bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1391265294832346
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224199484868373202}
-  - component: {fileID: 222116338835296268}
-  - component: {fileID: 114466075591624772}
-  m_Layer: 0
-  m_Name: PaternLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1881,6 +1823,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1435960439782824
 GameObject:
   m_ObjectHideFlags: 1
@@ -1915,6 +1858,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 --- !u!1 &1442670286400486
 GameObject:
   m_ObjectHideFlags: 1
@@ -2041,23 +1986,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1488371170317850
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224877450296352902}
-  - component: {fileID: 222355844196636692}
-  - component: {fileID: 114437455213471074}
-  m_Layer: 0
-  m_Name: TextMeshPro Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1489028854697562
 GameObject:
   m_ObjectHideFlags: 1
@@ -2115,23 +2043,6 @@ GameObject:
   - component: {fileID: 137008685527728682}
   m_Layer: 0
   m_Name: Owl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1502311255825928
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224880613497220872}
-  - component: {fileID: 222135656427498772}
-  - component: {fileID: 114751696412322502}
-  m_Layer: 0
-  m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2320,6 +2231,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1557357490246796
 GameObject:
   m_ObjectHideFlags: 1
@@ -2354,6 +2266,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 --- !u!1 &1559661755396754
 GameObject:
   m_ObjectHideFlags: 0
@@ -2638,11 +2552,11 @@ GameObject:
   - component: {fileID: 114522247452796864}
   m_Layer: 0
   m_Name: 3D_UI
-  m_TagString: 3DUI
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1624892797601490
 GameObject:
   m_ObjectHideFlags: 1
@@ -2858,6 +2772,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1664312519920986
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224485770596852256}
+  - component: {fileID: 222812429898493226}
+  - component: {fileID: 114570231733595982}
+  - component: {fileID: 114483551180761100}
+  m_Layer: 0
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1668443637719242
 GameObject:
   m_ObjectHideFlags: 1
@@ -3008,23 +2940,6 @@ GameObject:
   - component: {fileID: 4342126966926744}
   m_Layer: 0
   m_Name: wing.R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1697321967408424
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224144084486067068}
-  - component: {fileID: 222378109676617158}
-  - component: {fileID: 114914093886734810}
-  m_Layer: 0
-  m_Name: Owl_Numbers_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3458,6 +3373,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1776471946970364
 GameObject:
   m_ObjectHideFlags: 1
@@ -3509,6 +3425,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 --- !u!1 &1783448500130884
 GameObject:
   m_ObjectHideFlags: 1
@@ -3539,6 +3457,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1784347920410062
 GameObject:
   m_ObjectHideFlags: 1
@@ -3556,6 +3475,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 --- !u!1 &1784440249539870
 GameObject:
   m_ObjectHideFlags: 1
@@ -3824,6 +3745,22 @@ GameObject:
   - component: {fileID: 4570763198510260}
   m_Layer: 0
   m_Name: spine.001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1845065505072044
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224865034795607004}
+  - component: {fileID: 225713463992922264}
+  m_Layer: 0
+  m_Name: PlayButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4177,23 +4114,6 @@ GameObject:
   - component: {fileID: 4257608694698102}
   m_Layer: 0
   m_Name: head
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1922788775219164
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224345503188882494}
-  - component: {fileID: 222353506552972330}
-  - component: {fileID: 114966420249928892}
-  m_Layer: 0
-  m_Name: Owl_Numbers_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9568,7 +9488,44 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+<<<<<<< HEAD
 --- !u!114 &114015462047080004
+=======
+--- !u!114 &114045252554089728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185072538940928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b2ddf759eff1a4c9f0c606e2222d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeID: 0
+--- !u!114 &114050519289453658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1623929023306912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!114 &114093044342238288
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -10282,6 +10239,7 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+<<<<<<< HEAD
 --- !u!114 &114197029059501658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10531,16 +10489,24 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114288267731615900
+=======
+--- !u!114 &114145751256397324
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1241828941927614}
+=======
+  m_GameObject: {fileID: 1705617300439642}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Script: {fileID: 11500000, guid: d0fa3a07d8382d441be0bb1698d6f35c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -10810,13 +10776,17 @@ MonoBehaviour:
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
 --- !u!114 &114410931250594740
+=======
+--- !u!114 &114189100442760008
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1705617300439642}
+  m_GameObject: {fileID: 1793166294907476}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 007deb75d2d500d48be54d6601350a54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -10830,10 +10800,146 @@ MonoBehaviour:
   - {fileID: 114444916106449238}
   - {fileID: 114225911425071516}
 --- !u!114 &114432196794106694
+=======
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.48584908, g: 0.715705, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: e5dcde0a01a0e334dbec4dc4c753bcdd, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114192847257501336
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802288039821668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114694416586084046}
+          m_MethodName: OnButtonDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &114225911425071516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1036372740404578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b2ddf759eff1a4c9f0c606e2222d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeID: 0
+--- !u!114 &114278936301060424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1559661755396754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114348749657254116}
+          m_MethodName: StartGameWithCubeCollider
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 114569722212257358}
+          m_MethodName: HideTitle
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0.5
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &114336103378966532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1036372740404578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114225911425071516}
+          m_MethodName: OnButtonDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &114346563052606120
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1430719754150058}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -10917,6 +11023,9 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1488371170317850}
+=======
+  m_GameObject: {fileID: 1374112647980536}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
@@ -10930,7 +11039,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD
   m_text: Mr. Hoot
+=======
+  m_text: Play
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 808aa8f1ab804104aa7d0c337a6c1481, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 808aa8f1ab804104aa7d0c337a6c1481, type: 2}
@@ -10957,12 +11070,21 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
+<<<<<<< HEAD
   m_fontSize: 112.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 200
+=======
+  m_fontSize: 300
+  m_fontSizeBase: 300
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 300
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_fontStyle: 0
   m_textAlignment: 514
   m_isAlignmentEnumConverted: 1
@@ -10996,11 +11118,19 @@ MonoBehaviour:
   m_pageToDisplay: 1
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
+<<<<<<< HEAD
     textComponent: {fileID: 114437455213471074}
     characterCount: 8
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
+=======
+    textComponent: {fileID: 114346563052606120}
+    characterCount: 4
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 1
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -11023,36 +11153,116 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &114440639773851152
+=======
+--- !u!114 &114348749657254116
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1430437830171416}
+=======
+  m_GameObject: {fileID: 1559661755396754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a6d23b86bbc2c4c8149061b9768190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114348813880081480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668929547067456}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f63aeefd1813b254f9e71ec956673b00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  owlAnimator: {fileID: 95519892583270716}
-  owlAudioSource: {fileID: 82411415739099052}
---- !u!114 &114444916106449238
+  owlAnimator: {fileID: 95934481593798190}
+  owlAudioSource: {fileID: 82112246485311348}
+--- !u!114 &114353182349445968
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1463146502110640}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63aeefd1813b254f9e71ec956673b00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  owlAnimator: {fileID: 95519892583270716}
+  owlAudioSource: {fileID: 82411415739099052}
+--- !u!114 &114444916106449238
+=======
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 755880bcfbf3b124b8cbcae2325706ee, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114407266743175250
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1430719754150058}
+=======
+  m_GameObject: {fileID: 1349930543897350}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29b2ddf759eff1a4c9f0c606e2222d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   nodeID: 0
 --- !u!114 &114466075591624772
+=======
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114631232854756664}
+          m_MethodName: OnButtonDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &114410931250594740
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1391265294832346}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -11161,11 +11371,33 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &114490558704086872
+=======
+  m_GameObject: {fileID: 1705617300439642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 007deb75d2d500d48be54d6601350a54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 114972897670967138}
+  - {fileID: 114763300221050868}
+  - {fileID: 114631232854756664}
+  - {fileID: 114045252554089728}
+  - {fileID: 114694416586084046}
+  - {fileID: 114832199490593974}
+  - {fileID: 114444916106449238}
+  - {fileID: 114225911425071516}
+--- !u!114 &114432196794106694
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1185072538940928}
+=======
+  m_GameObject: {fileID: 1430719754150058}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -11176,7 +11408,11 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+<<<<<<< HEAD
         - m_Target: {fileID: 114045252554089728}
+=======
+        - m_Target: {fileID: 114444916106449238}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
           m_MethodName: OnButtonDown
           m_Mode: 1
           m_Arguments:
@@ -11190,11 +11426,16 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+<<<<<<< HEAD
 --- !u!114 &114509137207544944
+=======
+--- !u!114 &114440639773851152
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1390346791857724}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -11204,10 +11445,22 @@ MonoBehaviour:
   paternLabel: {fileID: 114466075591624772}
   canvasGroup: {fileID: 225398636451462382}
 --- !u!114 &114517413204869276
+=======
+  m_GameObject: {fileID: 1430437830171416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63aeefd1813b254f9e71ec956673b00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owlAnimator: {fileID: 95519892583270716}
+  owlAudioSource: {fileID: 82411415739099052}
+--- !u!114 &114444916106449238
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1705617300439642}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -11236,11 +11489,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1138173303789732}
+=======
+  m_GameObject: {fileID: 1430719754150058}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Script: {fileID: 11500000, guid: 29b2ddf759eff1a4c9f0c606e2222d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -11452,10 +11709,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeID: 0
 --- !u!114 &114671171719656842
+=======
+  nodeID: 0
+--- !u!114 &114483551180761100
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1344810642511476}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -11470,10 +11732,61 @@ MonoBehaviour:
   insideTrunk: {fileID: 23534752643210594}
   titleCanvasGroup: {fileID: 225922153180893728}
 --- !u!114 &114680698723130948
+=======
+  m_GameObject: {fileID: 1664312519920986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114570231733595982}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114522247452796864}
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114490558704086872
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1244752601862364}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -11497,10 +11810,39 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114694416586084046
+=======
+  m_GameObject: {fileID: 1185072538940928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114045252554089728}
+          m_MethodName: OnButtonDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &114517413204869276
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1802288039821668}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -11509,10 +11851,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeID: 0
 --- !u!114 &114705468437014278
+=======
+  m_GameObject: {fileID: 1705617300439642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99c443f8e8df842428cd0a7610e82865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114522247452796864
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1795760794938932}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -11622,23 +11974,45 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &114723821994683480
+=======
+  m_GameObject: {fileID: 1623929023306912}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe7665f370378b45a946fba27876665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldCanvasGroups:
+  - {fileID: 225713463992922264}
+--- !u!114 &114541990728108976
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1349930543897350}
+=======
+  m_GameObject: {fileID: 1036372740404578}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f63aeefd1813b254f9e71ec956673b00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   owlAnimator: {fileID: 95401912163566956}
   owlAudioSource: {fileID: 82680076560508820}
 --- !u!114 &114725632630687954
+=======
+  owlAnimator: {fileID: 95870860756063346}
+  owlAudioSource: {fileID: 82920829252243346}
+--- !u!114 &114569722212257358
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1705617300439642}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -11647,11 +12021,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
 --- !u!114 &114751696412322502
+=======
+  m_GameObject: {fileID: 1276051776029116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0950e5e9e60c1454d9d59f339c796ad6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 0}
+--- !u!114 &114570231733595982
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1502311255825928}
+=======
+  m_GameObject: {fileID: 1664312519920986}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -11665,7 +12053,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300002, guid: 383a7ad972993e74bbfb6a958d148648, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: edf711441da8c428bae528686532e5e4, type: 3}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11673,6 +12065,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD
 --- !u!114 &114752840999891252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11900,6 +12293,9 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &114763300221050868
+=======
+--- !u!114 &114631232854756664
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -11939,11 +12335,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeID: 0
+<<<<<<< HEAD
 --- !u!114 &114859730955507516
+=======
+--- !u!114 &114723821994683480
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1614958673480544}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -11972,11 +12373,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1430719754150058}
+=======
+  m_GameObject: {fileID: 1349930543897350}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f63aeefd1813b254f9e71ec956673b00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   owlAnimator: {fileID: 95654643039718594}
   owlAudioSource: {fileID: 82410707716389924}
 --- !u!114 &114866887276637376
@@ -12092,10 +12497,16 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &114882354588747942
+=======
+  owlAnimator: {fileID: 95401912163566956}
+  owlAudioSource: {fileID: 82680076560508820}
+--- !u!114 &114725632630687954
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1802288039821668}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12105,11 +12516,25 @@ MonoBehaviour:
   owlAnimator: {fileID: 95759037828480150}
   owlAudioSource: {fileID: 82525815625338510}
 --- !u!114 &114913768224565528
+=======
+  m_GameObject: {fileID: 1705617300439642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668de34521023344c88f0c713fe407b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+--- !u!114 &114752840999891252
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1327127731202096}
+=======
+  m_GameObject: {fileID: 1476289931321672}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
@@ -12123,18 +12548,30 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD
   m_text: Credits
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06c11a10309ec8845b49ccbdc558bec9, type: 2}
   m_sharedMaterial: {fileID: 21984411604964108, guid: 06c11a10309ec8845b49ccbdc558bec9,
     type: 2}
+=======
+  m_text: Remi Storms - Firstborn Demo - 2018
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 808aa8f1ab804104aa7d0c337a6c1481, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 808aa8f1ab804104aa7d0c337a6c1481, type: 2}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
+<<<<<<< HEAD
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+=======
+    rgba: 2315255807
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5372549}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_enableVertexGradient: 0
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
@@ -12151,12 +12588,21 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
+<<<<<<< HEAD
   m_fontSize: 196.3
   m_fontSizeBase: 24
+=======
+  m_fontSize: 150
+  m_fontSizeBase: 150
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
+<<<<<<< HEAD
   m_fontSizeMax: 300
+=======
+  m_fontSizeMax: 72
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_fontStyle: 0
   m_textAlignment: 514
   m_isAlignmentEnumConverted: 1
@@ -12190,11 +12636,16 @@ MonoBehaviour:
   m_pageToDisplay: 1
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
+<<<<<<< HEAD
     textComponent: {fileID: 114913768224565528}
     characterCount: 7
+=======
+    textComponent: {fileID: 114752840999891252}
+    characterCount: 35
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 6
+    wordCount: 7
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -12217,17 +12668,34 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!114 &114914093886734810
+=======
+--- !u!114 &114763300221050868
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1697321967408424}
+  m_GameObject: {fileID: 1155522870613230}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Script: {fileID: 11500000, guid: 29b2ddf759eff1a4c9f0c606e2222d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nodeID: 0
+--- !u!114 &114803902823689746
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1623929023306912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -12330,46 +12798,37 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &114933686456784832
+=======
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &114832199490593974
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1155522870613230}
+  m_GameObject: {fileID: 1430437830171416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 29b2ddf759eff1a4c9f0c606e2222d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 114763300221050868}
-          m_MethodName: OnButtonDown
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  delegates: []
---- !u!114 &114966420249928892
+  nodeID: 0
+--- !u!114 &114864218436744222
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1922788775219164}
+  m_GameObject: {fileID: 1430719754150058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Script: {fileID: 11500000, guid: f63aeefd1813b254f9e71ec956673b00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -12474,22 +12933,34 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &114972897670967138
+=======
+  owlAnimator: {fileID: 95654643039718594}
+  owlAudioSource: {fileID: 82410707716389924}
+--- !u!114 &114882354588747942
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1668929547067456}
+  m_GameObject: {fileID: 1802288039821668}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29b2ddf759eff1a4c9f0c606e2222d27, type: 3}
+  m_Script: {fileID: 11500000, guid: f63aeefd1813b254f9e71ec956673b00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   nodeID: 0
 --- !u!114 &114975684020210080
+=======
+  owlAnimator: {fileID: 95759037828480150}
+  owlAudioSource: {fileID: 82525815625338510}
+--- !u!114 &114933686456784832
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1888642546683330}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12513,16 +12984,45 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114991193127064708
+=======
+  m_GameObject: {fileID: 1155522870613230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114763300221050868}
+          m_MethodName: OnButtonDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &114972897670967138
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1206739555714028}
+  m_GameObject: {fileID: 1668929547067456}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd7834cb011489e4a9ed0ba286a8e051, type: 3}
+  m_Script: {fileID: 11500000, guid: 29b2ddf759eff1a4c9f0c606e2222d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nodeID: 0
 --- !u!137 &137001963132234070
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -13216,6 +13716,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1793166294907476}
+<<<<<<< HEAD
 --- !u!222 &222053631551436250
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -13289,10 +13790,14 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1345978247964834}
 --- !u!222 &222353506552972330
+=======
+--- !u!222 &222277363486319878
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1922788775219164}
 --- !u!222 &222355844196636692
 CanvasRenderer:
@@ -13306,12 +13811,16 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1146979265896338}
+=======
+  m_GameObject: {fileID: 1374112647980536}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 --- !u!222 &222370838104262332
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1889940174520552}
+<<<<<<< HEAD
 --- !u!222 &222378109676617158
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -13355,10 +13864,14 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1327127731202096}
 --- !u!222 &222589672051841444
+=======
+--- !u!222 &222812429898493226
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1247051929277550}
 --- !u!222 &222658804545395806
 CanvasRenderer:
@@ -13396,6 +13909,9 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1260667799367990}
+=======
+  m_GameObject: {fileID: 1664312519920986}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 --- !u!222 &222867383369449144
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -13408,6 +13924,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1476289931321672}
+<<<<<<< HEAD
 --- !u!222 &222941891707824434
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -13426,6 +13943,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1794736312904262}
+=======
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 --- !u!223 &223356009245611296
 Canvas:
   m_ObjectHideFlags: 1
@@ -13502,6 +14021,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 558.8, y: 251.48}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!224 &224022584241836724
 RectTransform:
   m_ObjectHideFlags: 1
@@ -13785,6 +14305,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 --- !u!224 &224365594410089630
 RectTransform:
   m_ObjectHideFlags: 1
@@ -13808,6 +14330,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 2026}
   m_SizeDelta: {x: 3443.58, y: 1549.611}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!224 &224366148260246488
 RectTransform:
   m_ObjectHideFlags: 1
@@ -13847,14 +14370,18 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224398445624137446
+=======
+--- !u!224 &224471786162060262
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1206739555714028}
+  m_GameObject: {fileID: 1374112647980536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -51}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
   m_Children:
   - {fileID: 224379687901019110}
   - {fileID: 224321914458601484}
@@ -13890,12 +14417,23 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -263, y: 439}
   m_SizeDelta: {x: 100, y: 100}
+=======
+  m_Children: []
+  m_Father: {fileID: 224485770596852256}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224466601929614922
+--- !u!224 &224485770596852256
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1247051929277550}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 172}
@@ -13921,10 +14459,20 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224379687901019110}
+=======
+  m_GameObject: {fileID: 1664312519920986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224471786162060262}
+  m_Father: {fileID: 224865034795607004}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -0.000047683716, y: 0}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13945,6 +14493,10 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000022888184, y: 0}
   m_SizeDelta: {x: 200, y: 200}
+=======
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 997.6, y: 447.4}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224574641033055660
 RectTransform:
@@ -13971,6 +14523,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1623929023306912}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: -0.005, y: 0.005, z: 0.005}
@@ -13981,10 +14534,19 @@ RectTransform:
   - {fileID: 224177625956454652}
   - {fileID: 224365594410089630}
   m_Father: {fileID: 4725957906253104}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.55}
+  m_LocalScale: {x: -0.005, y: 0.005, z: 0.005}
+  m_Children:
+  - {fileID: 224865034795607004}
+  m_Father: {fileID: 4190249615053834}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -14060,6 +14622,10 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -397, y: -81}
   m_SizeDelta: {x: 100, y: 100}
+=======
+  m_AnchoredPosition: {x: 0, y: 4.68}
+  m_SizeDelta: {x: 1920, y: 1080}
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224790125411805356
 RectTransform:
@@ -14116,37 +14682,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 36}
   m_SizeDelta: {x: -391.8999, y: -883.79987}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224877450296352902
+--- !u!224 &224865034795607004
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1488371170317850}
+  m_GameObject: {fileID: 1845065505072044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000015258789}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224466601929614922}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224880613497220872
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1502311255825928}
-  m_LocalRotation: {x: -0, y: -0, z: -3.4498326e-16, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224144646691340668}
+  m_Children:
+  - {fileID: 224485770596852256}
+  m_Father: {fileID: 224598390267083548}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -50.125004, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -14244,23 +14793,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 36}
   m_SizeDelta: {x: -391.9, y: -883.8}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!225 &225386344733667716
+--- !u!225 &225713463992922264
 CanvasGroup:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1206739555714028}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
---- !u!225 &225398636451462382
-CanvasGroup:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1390346791857724}
+  m_GameObject: {fileID: 1845065505072044}
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1

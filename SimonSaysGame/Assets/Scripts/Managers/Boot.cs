@@ -39,17 +39,21 @@ public class Boot : MonoBehaviour
         //Initializes managers in order to avoid errors later
         manager_Event_ref.Initialize();
         manager_Sound_ref.Initialize();
-        //manager_UI_ref.Initialize();
+        manager_UI_ref.Initialize();
         manager_Game_ref.Initialize();
+<<<<<<< HEAD
         //yield return null;
         //SceneManager.LoadScene (1, LoadSceneMode.Additive);
        // SceneManager.LoadScene(1, LoadSceneMode.Additive);
+=======
         yield return null;
-        //GLOBAL.instance.ui3D = GameObject.FindGameObjectWithTag("3DUI").GetComponent<UI_3D>();
-        //yield return null;
+        SceneManager.LoadScene (1, LoadSceneMode.Additive);
+        SceneManager.LoadScene(2, LoadSceneMode.Additive);
+>>>>>>> parent of ad25d2e... WORKS after some tweaks
+        yield return null;
         //SceneManager.LoadScene(3, LoadSceneMode.Additive);
         //Manager_Game_ref.initialize();
-       // GLOBAL.instance.M_ui.ShowScreen(UI_Screen.Enum_Screen.MainMenu);
+        GLOBAL.instance.M_ui.ShowScreen(UI_Screen.Enum_Screen.MainMenu);
 
     }
 

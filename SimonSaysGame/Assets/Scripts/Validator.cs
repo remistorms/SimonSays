@@ -5,15 +5,12 @@ using UnityEngine;
 public class Validator : MonoBehaviour {
 
  
-    public Node[] localNodes;
+    Node[] localNodes;
     int index;
-
-    public static Validator instance;
 
 	// Use this for initialization
 	void Start () {
         GLOBAL.instance.M_event.EVT_Node_Pressed += OnNodePressed;
-        instance = this;
 	}
 	
 	// Update is called once per frame

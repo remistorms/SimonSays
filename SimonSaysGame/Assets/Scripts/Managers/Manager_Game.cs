@@ -37,13 +37,12 @@ public class Manager_Game : Manager {
     public void OnGameSetup() {
         Debug.Log("OnGameSetup Method has been called, thank you Events");
         state = State.Setup;
-        StartCoroutine(DelayedStartRoutine(0f));
+        StartCoroutine(DelayedStartRoutine(5));
     }
 
     public void OnGameOver() {
         state = State.GameOver;
-        //GLOBAL.instance.M_ui.ShowScreen(UI_Screen.Enum_Screen.PostGame);
-        //Needs 3D UI Instead
+        GLOBAL.instance.M_ui.ShowScreen(UI_Screen.Enum_Screen.PostGame);
     }
 
     IEnumerator DelayedStartRoutine(float delay) {

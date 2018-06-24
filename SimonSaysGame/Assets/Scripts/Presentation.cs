@@ -17,22 +17,21 @@ public class Presentation : MonoBehaviour {
 
     public void DisplayNodeSequence(Node[] nodes) {
         Debug.Log("Displaye Node Sequence Method");
-        //StartCoroutine(DisplayNodesRoutine(nodes));
-        GLOBAL.instance.ui3D.teacherCanvas.ShowTeacherLongDialogue(nodes);
+        StartCoroutine(DisplayNodesRoutine(nodes));
     }
 
     IEnumerator DisplayNodesRoutine(Node[] nodes) {
         //Fire presentation Start EVENT for buttons to listen
         GLOBAL.instance.M_event.Fire_EVT_Presentation_Start();
         yield return null;
-
-        GLOBAL.instance.ui3D.teacherCanvas.ShowTeacherLongDialogue(nodes);
-        yield return new WaitForSeconds(7);
+        for (int i = 0; i < nodes.Length; i++)
+        {
+            nodes[i].FlashColor();
+            yield return new WaitForSeconds(1.0f);
+        }
 
         validatorRef.Activate(nodes);
         //Fire END presentation EVENT
         GLOBAL.instance.M_event.Fire_EVT_Presentation_Finished();
     }
-
-   
 }

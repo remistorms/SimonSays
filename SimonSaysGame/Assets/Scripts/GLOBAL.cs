@@ -10,8 +10,6 @@ public class GLOBAL : MonoBehaviour {
     //public Manager_UI M_ui;
     public Manager_Sound M_sound;
     public Manager_Game M_game;
-    public UI_3D ui3D;
-    public Game gameLogic;
 
     // Use this for initialization
     void Awake () {
