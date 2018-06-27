@@ -35,12 +35,8 @@ public class UI_3D : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
         GLOBAL.instance.M_event.EVT_Game_Setup += OnGameSetup;
         GLOBAL.instance.M_event.EVT_Game_Over += OnGameOver;
-        GLOBAL.instance.M_event.EVT_Presentation_Start += OnPresentationStart;
-        GLOBAL.instance.M_event.EVT_Presentation_Finished += OnPresentationFinished;
         GLOBAL.instance.M_event.EVT_Score_Changed += OnScoreChanged;
-        GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
         GLOBAL.instance.M_event.EVT_Display_Blackboard += OnDisplayBlackboard;
-        GLOBAL.instance.M_event.EVT_Tutorial_Started += OnTutorialStarted;
         frontCanvasOriginalScale = frontCanvas.localScale;
         HidePopups();
         camTransform = Camera.main.transform;
@@ -65,13 +61,10 @@ public class UI_3D : MonoBehaviour {
         //GLOBAL.instance.M_event.Fire_EVT_Game_Start();
         GLOBAL.instance.M_event.Fire_EVT_Tutorial_Finished();
         HidePopups();
-        Debug.Log("Fired tutorial finished");
-       
     }
 
     void OnDisplayBlackboard(string text) {
         blackboardSequenceText.text = text;
-        //Debug.Log(text + " from event");
     }
 
     void OnGameStart() {
@@ -90,21 +83,9 @@ public class UI_3D : MonoBehaviour {
         ShowReplay();
     }
 
-    void OnPresentationStart()
-    {
-    }
-
-    void OnPresentationFinished()
-    {
-    }
-
     void OnScoreChanged(int score)
     {
         blackboardScoreText.text = "Score: " + score;
-    }
-
-    void OnSequenceCompleted()
-    {
     }
 
     public void PlayButtonPressed() {
@@ -131,13 +112,8 @@ public class UI_3D : MonoBehaviour {
     }
 
     public void HidePopups() {
-        Debug.Log("Hide Popups");
         understoodParent.SetActive(false);
         replayParent.SetActive(false);
-    }
-
-    void OnTutorialStarted() {
-       // ShowReplay();
     }
 
     void OnTutorialFinished()

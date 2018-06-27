@@ -1206,7 +1206,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4812241917822916}
-  - component: {fileID: 114152484948380192}
   - component: {fileID: 114970857700183518}
   - component: {fileID: 114897231895771886}
   - component: {fileID: 114184553677657336}
@@ -7315,7 +7314,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1234038763869592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1000, z: 0}
+  m_LocalPosition: {x: 0, y: 1000, z: 1.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4228451060277166}
@@ -9896,19 +9895,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114152484948380192
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1234038763869592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 356cebe0b860e13458c4e519a0afbc1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manager_Event_ref: {fileID: 114897231895771886}
-  manager_Game_ref: {fileID: 114184553677657336}
 --- !u!114 &114154527168342502
 MonoBehaviour:
   m_ObjectHideFlags: 1

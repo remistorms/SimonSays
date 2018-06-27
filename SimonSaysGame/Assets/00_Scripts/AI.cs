@@ -12,35 +12,20 @@ public class AI : MonoBehaviour {
 	void Start () {
         gameRef = GetComponent<Game>();
         presentationRef = GetComponent<Presentation>();
-        GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
         GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
         GLOBAL.instance.M_event.EVT_Tutorial_Finished += OnTutorialFinished;
 
 	}
-	
-	// Update is called once per frame
-	void Update () {
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-           presentationRef.DisplayNodeSequence(GetSequence());
-        }
-	}
 
+    //Gets the sequence to display and then returns the nodes array
     public Node[] GetSequence() {
-
-        //Get number sequence
         int numSequence = GetNumSequence();
         Node[] sequence = new Node[numSequence];
-        //Get a random number from the nodes array that this method will return
-        for (int i = 0; i < numSequence; i++)
-        {
+        for (int i = 0; i < numSequence; i++){
             int random = Random.Range(0, nodes.Count);
-            
-            Node selectedNode = nodes[random];
-            
+            Node selectedNode = nodes[random]; 
             sequence[i] = selectedNode;
         }
-
         return sequence;
     }
 
@@ -56,20 +41,16 @@ public class AI : MonoBehaviour {
         }
         else
         {
-            return 5;
+            return 6;
         }
     }
 
-    void OnGameStart() {
-       // StartCoroutine(StartWithDelay(5));
-    }
 
     void OnTutorialFinished() {
         StartCoroutine(StartWithDelay(2));
     }
 
     void OnSequenceCompleted() {
-        //presentationRef.DisplayNodeSequence(GetSequence());
         StartCoroutine(StartWithDelay(3));
     }
 

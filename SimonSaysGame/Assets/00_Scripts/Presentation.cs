@@ -30,11 +30,7 @@ public class Presentation : MonoBehaviour {
 	}
 
     public void DisplayNodeSequence(Node[] nodes) {
-
-        Debug.Log("Displaye Node Sequence Method");
-
             StartCoroutine(DisplayNodesRoutine(nodes));
-
     }
 
     IEnumerator DisplayNodesRoutine(Node[] nodes) {
@@ -47,7 +43,6 @@ public class Presentation : MonoBehaviour {
 
         for (int i = 0; i < nodes.Length; i++)
         {
-            
             //Display here on the blackboard 
             string textToDisplay = (nodes[i].nodeIndex + 1).ToString() ; 
             GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard(textToDisplay);
@@ -81,9 +76,7 @@ public class Presentation : MonoBehaviour {
         blackboardText.text = "One wrong answer is game over";
         yield return new WaitForSeconds(2);
         blackboardText.text = "Understood?";
-        //GLOBAL.instance.M_event.Fire_EVT_Tutorial_Finished();
         UI_3D.instance.ShowUnderstood();
-        //yield return new WaitForSeconds(2);
     }
 
     IEnumerator ReplayRoutine() {
@@ -101,7 +94,6 @@ public class Presentation : MonoBehaviour {
     }
 
     void OnGameStart() {
-        Debug.Log("Tutorial Started");
         StartCoroutine(TutorialRoutine());
     }
 

@@ -8,12 +8,7 @@ public class Game : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         GLOBAL.instance.M_event.EVT_Game_Setup += OnGameSetup;
-        GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
         GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
-    }
-
-    void OnGameStart() {
-        Debug.Log("Game Script OnGameStart method has been called");
     }
 
     void OnGameSetup() {
