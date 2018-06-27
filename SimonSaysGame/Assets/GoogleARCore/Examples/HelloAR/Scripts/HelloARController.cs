@@ -24,6 +24,9 @@ namespace GoogleARCore.Examples.HelloAR
     using GoogleARCore;
     using GoogleARCore.Examples.Common;
     using UnityEngine;
+    using DG.Tweening;
+
+
 
 #if UNITY_EDITOR
     // Set up touch input propagation while using Instant Preview in the editor.
@@ -49,6 +52,7 @@ namespace GoogleARCore.Examples.HelloAR
         /// A model to place when a raycast from a user touch hits a plane.
         /// </summary>
         public GameObject AndyAndroidPrefab;
+        public GameObject stage;
 
         /// <summary>
         /// A gameobject parenting UI for displaying the "searching for planes" snackbar.
@@ -58,7 +62,7 @@ namespace GoogleARCore.Examples.HelloAR
         /// <summary>
         /// The rotation in degrees need to apply to model when the Andy model is placed.
         /// </summary>
-        private const float k_ModelRotation = 180.0f;
+        private const float k_ModelRotation = 0;
 
         /// <summary>
         /// A list to hold all planes ARCore is tracking in the current frame. This object is used across
@@ -70,6 +74,14 @@ namespace GoogleARCore.Examples.HelloAR
         /// True if the app is in the process of quitting due to an ARCore connection error, otherwise false.
         /// </summary>
         private bool m_IsQuitting = false;
+
+        public bool hasSpawnedPrefab = false;
+        public GameObject spawnParticle;
+
+
+        void OriginalCode() {
+
+        }
 
         /// <summary>
         /// The Unity Update() method.
@@ -116,18 +128,55 @@ namespace GoogleARCore.Examples.HelloAR
                 }
                 else
                 {
-                    // Instantiate Andy model at the hit pose.
-                    var andyObject = Instantiate(AndyAndroidPrefab, hit.Pose.position, hit.Pose.rotation);
+                    if (hasSpawnedPrefab == false)
+                    {
+                        /*
+                        //GLOBAL.instance.M_event.Fire_EVT_Game_Setup();
+                        // Instantiate Andy model at the hit pose.
+                        var andyObject = Instantiate(AndyAndroidPrefab, hit.Pose.position, hit.Pose.rotation);
 
-                    // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
-                    andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
+                        GameObject particle = Instantiate(spawnParticle, hit.Pose.position, Quaternion.identity) as GameObject;
+                        // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
+                        andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
 
-                    // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
-                    // world evolves.
-                    var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+                        // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
+                        // world evolves.
+                        var anchor = hit.Trackable.CreateAnchor(hit.Pose);
 
-                    // Make Andy model a child of the anchor.
-                    andyObject.transform.parent = anchor.transform;
+                        // Make Andy model a child of the anchor.
+                        andyObject.transform.parent = anchor.transform;
+
+                        //Tween here and spawn something cool
+                        andyObject.GetComponent<Starter>().StageSpawned();
+                        */
+
+
+                        //Delete thgis if doesnt work
+                        //GLOBAL.instance.M_event.Fire_EVT_Game_Setup();
+                        // Instantiate Andy model at the hit pose.
+                        // var andyObject = Instantiate(AndyAndroidPrefab, hit.Pose.position, hit.Pose.rotation);
+                        stage.gameObject.SetActive(true);
+                        stage.transform.position = hit.Pose.position;
+
+                        GameObject particle = Instantiate(spawnParticle, hit.Pose.position, Quaternion.identity) as GameObject;
+                        // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
+                        stage.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
+
+                        // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
+                        // world evolves.
+                        var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+
+                        // Make Andy model a child of the anchor.
+                        stage.transform.parent = anchor.transform;
+                        stage.transform.localPosition = Vector3.zero;
+                        
+                        //Tween here and spawn something cool
+                        stage.GetComponent<Starter>().StageSpawned();
+
+
+                        hasSpawnedPrefab = true;
+                    }
+                   
                 }
             }
         }

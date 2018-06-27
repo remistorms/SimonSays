@@ -178,3 +178,4 @@ C:\Users\ultim\OneDrive\Documentos\Unity2018\SimonSays\SimonSaysGame\obj\Debug\A
 C:\Users\ultim\OneDrive\Documentos\Unity2018\SimonSays\SimonSaysGame\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\ultim\OneDrive\Documentos\Unity2018\SimonSays\SimonSaysGame\obj\Debug\Assembly-CSharp.dll
 C:\Users\ultim\OneDrive\Documentos\Unity2018\SimonSays\SimonSaysGame\obj\Debug\Assembly-CSharp.pdb
+C:\Users\ultim\OneDrive\Documentos\Unity2018\SimonSays\SimonSaysGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
