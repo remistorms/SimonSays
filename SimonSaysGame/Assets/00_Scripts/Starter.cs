@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
+//A bit of juiciness to the begining of game, particles and simple setups
 public class Starter : MonoBehaviour {
 
     public GameObject firstParticle;
@@ -11,9 +12,9 @@ public class Starter : MonoBehaviour {
 
     public void StageSpawned() {
         StartCoroutine(StageSpawnedRoutine());
-       // gameObject.GetComponent<Stage>().SendCharacterAnimators();
     }
 
+    //Spawn particles and makes tree grow
     IEnumerator StageSpawnedRoutine() {
         InitialSetup();
         yield return null;
@@ -26,12 +27,14 @@ public class Starter : MonoBehaviour {
         transform.DOScale(1, 1);
     }
 
+    //initial setup for thee scale and particles
     void InitialSetup() {
         transform.localScale = Vector3.zero;
         firstParticle.SetActive(false);
         SpawnTreeParticles();
     }
 
+    //Creates particles for later use
     void SpawnTreeParticles() {
         for (int i = 0; i < treeParticlesPosition.Length; i++)
         {

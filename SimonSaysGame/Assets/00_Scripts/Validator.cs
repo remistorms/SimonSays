@@ -5,7 +5,7 @@ using UnityEngine;
 public class Validator : MonoBehaviour {
 
  
-    Node[] localNodes;
+    Node[] localNodes; //Nodes saved locally to compare with player pressed nodes
     int index;
 
 	// Use this for initialization

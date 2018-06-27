@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+//Script designed to present the sequence of numbers before each round
 public class Presentation : MonoBehaviour {
 
     Validator validatorRef;
-    public YesNo tutorialAnswers;
+
     public TextMeshProUGUI blackboardText;
 
 	// Use this for initialization
@@ -16,18 +17,12 @@ public class Presentation : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
         GLOBAL.instance.M_event.EVT_Repeat_Tutorial += OnTutorialRepeat;
         GLOBAL.instance.M_event.EVT_Replay_Game += OnReplayGame;
-        //tutorialAnswers.Deactivate();
 
 	}
 
     void OnReplayGame() {
         StartCoroutine(ReplayRoutine());
     }
-
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     public void DisplayNodeSequence(Node[] nodes) {
             StartCoroutine(DisplayNodesRoutine(nodes));

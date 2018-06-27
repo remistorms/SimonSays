@@ -2,23 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This will be used to access pretty much everything that is important for events and more
 public class GLOBAL : MonoBehaviour {
 
     public static GLOBAL instance;
-    //References for future uses in game
     public Manager_Event M_event;
-    //public Manager_Sound M_sound;
     public Manager_Game M_game;
-
     public Game gameVariables;
 
     // Use this for initialization
     void Awake () {
         instance = this;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }
