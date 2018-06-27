@@ -23,10 +23,12 @@ public class UI_3D : MonoBehaviour {
     public GameObject understoodParent, replayParent;
     public GameObject[] followPlayerButtons;
     Transform camTransform;
+    public bool hasPlacedScene;
 
     private void Awake()
     {
         instance = this;
+        hasPlacedScene = false;
     }
 
     private void Start()
@@ -37,24 +39,35 @@ public class UI_3D : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Game_Over += OnGameOver;
         GLOBAL.instance.M_event.EVT_Score_Changed += OnScoreChanged;
         GLOBAL.instance.M_event.EVT_Display_Blackboard += OnDisplayBlackboard;
+        GLOBAL.instance.M_event.EVT_Stage_Positioned += ActivateButtonsFollowCam;
         frontCanvasOriginalScale = frontCanvas.localScale;
         HidePopups();
         camTransform = Camera.main.transform;
      
     }
 
+    void ActivateButtonsFollowCam() {
+        hasPlacedScene = true;
+    }
+
     private void LateUpdate()
     {
-        foreach (var item in followPlayerButtons)
+        //Keeps the UI Buttons looking at main Camera
+        if (hasPlacedScene)
         {
-            item.transform.LookAt(camTransform);
-        } 
+            foreach (var item in followPlayerButtons)
+            {
+                item.transform.LookAt(camTransform);
+            }
+        }
+        
     }
 
     public void RetryGame() {
         GLOBAL.instance.M_event.Fire_EVT_Replay_Game();
         HidePopups();
     }
+
     public void StartGame() {
         //GLOBAL.instance.M_event.Fire_EVT_Game_Setup();
         //worldCanvasGroups[0].DOFade(0, 0.5f);
@@ -96,9 +109,7 @@ public class UI_3D : MonoBehaviour {
 
         GLOBAL.instance.M_event.Fire_EVT_Game_Start();
         AnimationManager.instance.CelebrateRoutine(8);
-        yield return new WaitForSeconds(5);
-        
-        
+        yield return new WaitForSeconds(5); 
     }
 
     public void ShowUnderstood() {

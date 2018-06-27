@@ -27,7 +27,6 @@ public class Manager_Sound : Manager {
 
     public void OnGameOver() {
         Debug.Log("Sound Manager OnGameOver");
-        //StartCoroutine(GameOverRoutine());
         backgroundMusicSource.Stop();
         backgroundMusicSource.clip = gameOverMusic;
         backgroundMusicSource.volume = 0.1f;
@@ -46,15 +45,6 @@ public class Manager_Sound : Manager {
 
     public void OnGameSetup() {
 
-        /*
-        Debug.Log("Sound Manager OnGameSetup");
-        fxAudioSource.Stop();
-        backgroundMusicSource.Stop();
-        fxAudioSource.clip = null;
-        backgroundMusicSource.volume = 0.7f;
-        backgroundMusicSource.clip = preGameMusic;
-        backgroundMusicSource.Play();*/
-
         backgroundMusicSource.Stop();
         backgroundMusicSource.clip = preGameMusic;
         backgroundMusicSource.volume = 0.5f;
@@ -63,14 +53,6 @@ public class Manager_Sound : Manager {
 
     public void OnGameStart()
     {
-        /*
-        Debug.Log("Sound Manager OnGameStart");
-        fxAudioSource.Stop();
-        backgroundMusicSource.Stop();
-        fxAudioSource.clip = null;
-        backgroundMusicSource.volume = 0.7f;
-        backgroundMusicSource.clip = inGameMusic;
-        backgroundMusicSource.Play();*/
         backgroundMusicSource.Stop();
         backgroundMusicSource.clip = inGameMusic;
         backgroundMusicSource.volume = 0.5f;
@@ -87,17 +69,5 @@ public class Manager_Sound : Manager {
         backgroundMusicSource.volume = 0.1f;
         backgroundMusicSource.clip = gameOverMusic;
         backgroundMusicSource.Play();
-    }
-
-    public void ToggleMusic() {
-
-        if (backgroundMusicSource.isActiveAndEnabled)
-        {
-            backgroundMusicSource.Stop();
-        }
-    }
-
-    public void ToggleSFX() {
-        fxAudioSource.enabled = !fxAudioSource.isActiveAndEnabled;
     }
 }
