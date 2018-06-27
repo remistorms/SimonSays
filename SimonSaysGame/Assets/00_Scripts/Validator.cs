@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This Script validates that the player input nodes are the same as the randomly generated
 public class Validator : MonoBehaviour {
 
- 
     Node[] localNodes; //Nodes saved locally to compare with player pressed nodes
     int index;
 
-	// Use this for initialization
 	void Start () {
         GLOBAL.instance.M_event.EVT_Node_Pressed += OnNodePressed;
         GLOBAL.instance.M_event.EVT_Game_Over += OnGameOver;
