@@ -18,7 +18,6 @@ public class AnimationManager : MonoBehaviour {
     {
         GLOBAL.instance.M_event.EVT_Game_Setup += OnGameSetup;
         GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
-        //GLOBAL.instance.M_event.EVT_Node_Pressed += OnNodePressed;
         GLOBAL.instance.M_event.EVT_WaitingForPlayerInput += OnWaitingForPlayerInput;
         GLOBAL.instance.M_event.EVT_Sequence_Completed += OnSequenceCompleted;
         GLOBAL.instance.M_event.EVT_PayAttention += OnTeacherCall;
@@ -44,15 +43,12 @@ public class AnimationManager : MonoBehaviour {
             item.SetTrigger("cry");
         }
     }
-    /*
-    void OnNodePressed(Node node) {
-        kidsAnimators[node.nodeIndex].SetTrigger("jump");
-    }*/
-
+  
     public void JumpOwl(int id) {
         kidsAnimators[id].SetTrigger("jump");
     }
 
+    //Called then event Waiting for player input is fired
     void OnWaitingForPlayerInput() {
         foreach (var item in kidsAnimators)
         {
@@ -63,6 +59,7 @@ public class AnimationManager : MonoBehaviour {
         teacherAnimator.SetTrigger("teaching");
     }
 
+    //Called when event sequence completed is fired
     void OnSequenceCompleted() {
         foreach (var item in kidsAnimators)
         {
@@ -73,6 +70,7 @@ public class AnimationManager : MonoBehaviour {
         teacherAnimator.SetTrigger("preparing");
     }
 
+    //Animates the kids back to original state before next round
     void OnTeacherCall() {
         foreach (var item in kidsAnimators)
         {
@@ -81,14 +79,7 @@ public class AnimationManager : MonoBehaviour {
         }
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            StartCoroutine(CelebrateRoutine(3));
-        }
-    }
-
+    //Animates the kids x number of times 
     public IEnumerator CelebrateRoutine(int times) {
         for (int i = 0; i < times; i++)
         {
@@ -104,7 +95,6 @@ public class AnimationManager : MonoBehaviour {
     }
 
     public void Celebrate() {
-        Debug.Log("Animation Test");
         foreach (var item in kidsAnimators)
         {
             item.gameObject.transform.DOLocalRotate(new Vector3(0, Random.Range(0, 360), 0), 0.2f);
