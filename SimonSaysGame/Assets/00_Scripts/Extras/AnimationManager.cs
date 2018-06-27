@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
+//In charge of all the character's animations 
 public class AnimationManager : MonoBehaviour {
 
     public static AnimationManager instance;
@@ -36,6 +37,7 @@ public class AnimationManager : MonoBehaviour {
 
     }
 
+    //Funny crying animations when player loses...
     void AllCry() {
         foreach (var item in kidsAnimators)
         {
