@@ -41,13 +41,11 @@ public class Node : MonoBehaviour {
     }
 
     public void NodeClicked() {
-        Debug.Log("Node Clicked");
         GLOBAL.instance.M_event.Fire_EVT_Node_Pressed(this);
     }
 
     public void FlashColor() {
         transform.DOPunchScale(Vector3.one, 0.2f);
-        //owlBehaviour.OwlJump();
     }
 
     void OnPresentationStarted() {

@@ -29,7 +29,8 @@ public class AI : MonoBehaviour {
         return sequence;
     }
 
-    //This one will give us the amount of nodes per difficulty
+    //Simple Difficulty Ramping based on current score
+    //We could even add less time to display on blackboard or even more # combinations
     public int GetNumSequence() {
         if (gameRef.score < 3)
         {
@@ -44,7 +45,6 @@ public class AI : MonoBehaviour {
             return 6;
         }
     }
-
 
     void OnTutorialFinished() {
         StartCoroutine(StartWithDelay(2));
