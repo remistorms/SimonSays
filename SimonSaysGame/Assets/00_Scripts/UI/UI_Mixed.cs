@@ -5,12 +5,8 @@ using UnityEngine.UI;
 
 public class UI_Mixed : MonoBehaviour {
 
-    public RectTransform menuScreens;
+    public UI_Mixed_Screen[] menuScreens;
 
-    private void Start()
-    {
-        
-    }
 
 }
 
