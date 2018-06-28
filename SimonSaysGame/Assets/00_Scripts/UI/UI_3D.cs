@@ -40,6 +40,10 @@ public class UI_3D : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Score_Changed += OnScoreChanged;
         GLOBAL.instance.M_event.EVT_Display_Blackboard += OnDisplayBlackboard;
         GLOBAL.instance.M_event.EVT_Stage_Positioned += ActivateButtonsFollowCam;
+        GLOBAL.instance.M_event.EVT_Show_Understood += ShowUnderstood;
+        GLOBAL.instance.M_event.EVT_Show_Play_Again += ShowReplay;
+        GLOBAL.instance.M_event.EVT_Hide_Understood += HidePopups;
+
         frontCanvasOriginalScale = frontCanvas.localScale;
         HidePopups();
         camTransform = Camera.main.transform;

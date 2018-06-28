@@ -24,7 +24,13 @@ public class Manager_Event : Manager {
     public Action EVT_WaitingForPlayerInput;
     public Action EVT_PayAttention;
     public Action EVT_Presentation_Finished;
+    public Action EVT_Show_Dialogue;
+    public Action EVT_Hide_Dialogue;
     public Action<string> EVT_Display_Blackboard;
+    public Action EVT_Show_Understood;
+    public Action EVT_Show_Play_Again;
+    public Action EVT_Hide_Understood;
+    public Action EVT_Hide_Play_Again;
 
     //OPTIONS EVENTS
     public Action<float> EVT_Music_Volume_Changed;
@@ -39,6 +45,53 @@ public class Manager_Event : Manager {
 
     //PUBLIC FIRE EVENTS
     #region
+
+    public void Fire_EVT_Show_Play_Again()
+    {
+        if (EVT_Show_Play_Again != null)
+        {
+            EVT_Show_Play_Again();
+        }
+    }
+
+    public void Fire_EVT_Hide_Play_Again()
+    {
+        if (EVT_Hide_Play_Again != null)
+        {
+            EVT_Hide_Play_Again();
+        }
+    }
+
+    public void Fire_EVT_Show_Understood()
+    {
+        if (EVT_Show_Understood != null)
+        {
+            EVT_Show_Understood();
+        }
+    }
+
+    public void Fire_EVT_Hide_Understood()
+    {
+        if (EVT_Hide_Understood != null)
+        {       
+            EVT_Hide_Understood();
+        }
+    }
+
+    public void Fire_EVT_Show_Dialogue() {
+        if (EVT_Show_Dialogue != null)
+        {
+            EVT_Show_Dialogue();
+        }
+    }
+
+    public void Fire_EVT_Hide_Dialogue()
+    {
+        if (EVT_Hide_Dialogue != null)
+        {
+            EVT_Hide_Dialogue();
+        }
+    }
 
     public void Fire_EVT_Scale_Changed(float scale)
     {

@@ -32,7 +32,6 @@ public class Presentation : MonoBehaviour {
         //Fire presentation Start EVENT for buttons to listen
         GLOBAL.instance.M_event.Fire_EVT_Presentation_Start();
         yield return null;
-
         GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard("Ready...");
         yield return new WaitForSeconds(1f);
 
@@ -59,19 +58,27 @@ public class Presentation : MonoBehaviour {
 
     IEnumerator TutorialRoutine() {
         GLOBAL.instance.M_event.Fire_EVT_Tutorial_Started();
+        GLOBAL.instance.M_event.Fire_EVT_Show_Dialogue();
         yield return new WaitForSeconds(2);
-        blackboardText.text = "Kids !!!";
+        //blackboardText.text = "Kids !!!";
+        GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard("Kids !!!");
         yield return new WaitForSeconds(3);
-        blackboardText.text = "Its memory training day";
+        //blackboardText.text = "Its memory training day";
+        GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard("It's memory training day");
         yield return new WaitForSeconds(3);
-        blackboardText.text = "Memorize the numbers on the blackboard";
+        //blackboardText.text = "Memorize the numbers on the blackboard";
+        GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard("Memorize the numbers on the blackboard");
         yield return new WaitForSeconds(2);
-        blackboardText.text = "At the end of each round its your turn to answer";
+        //blackboardText.text = "At the end of each round its your turn to answer";
+        GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard("At the end of each round its your turn to answer");
         yield return new WaitForSeconds(2);
-        blackboardText.text = "One wrong answer is game over";
+        // blackboardText.text = "One wrong answer is game over";
+        GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard("One wrong answer means Game Over");
         yield return new WaitForSeconds(2);
-        blackboardText.text = "Understood?";
-        UI_3D.instance.ShowUnderstood();
+        //  blackboardText.text = "Understood?";
+        GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard("Understood?");
+        //UI_3D.instance.ShowUnderstood();
+        GLOBAL.instance.M_event.Fire_EVT_Show_Understood();
     }
 
     IEnumerator ReplayRoutine() {
