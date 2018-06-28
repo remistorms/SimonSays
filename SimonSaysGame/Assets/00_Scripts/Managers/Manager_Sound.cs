@@ -23,6 +23,8 @@ public class Manager_Sound : Manager {
         GLOBAL.instance.M_event.EVT_Game_Setup += OnGameSetup;
         GLOBAL.instance.M_event.EVT_Node_Pressed += OnNodePressed;
         GLOBAL.instance.M_event.EVT_Replay_Game += OnGameStart;
+        GLOBAL.instance.M_event.EVT_Music_Volume_Changed += ChangeMusicVolume;
+        GLOBAL.instance.M_event.EVT_Sfx_Volume_Changed += ChangeSFXVolume;
     }
 
     public void OnGameOver() {
@@ -69,5 +71,14 @@ public class Manager_Sound : Manager {
         backgroundMusicSource.volume = 0.1f;
         backgroundMusicSource.clip = gameOverMusic;
         backgroundMusicSource.Play();
+    }
+
+    public void ChangeMusicVolume(float volume) {
+        backgroundMusicSource.volume = volume;
+    }
+
+    public void ChangeSFXVolume(float volume)
+    {
+        fxAudioSource.volume = volume;
     }
 }

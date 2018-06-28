@@ -25,8 +25,8 @@ public class Stage : MonoBehaviour {
         GLOBAL.instance.M_event.EVT_Game_Setup += OnGameSetup;
         GLOBAL.instance.M_event.EVT_Game_Over += OnGameOver;
         GLOBAL.instance.M_event.EVT_Game_Start += OnGameStart;
-        GLOBAL.instance.M_event.EVT_Score_Changed += OnScoreChanged;
-      //  audioSource = GetComponent<AudioSource>();
+        GLOBAL.instance.M_event.EVT_Scale_Changed += OnScaleChanged;
+
         foreach (var item in outside)
         {
             item.material = opaqueMaterial;
@@ -104,8 +104,8 @@ public class Stage : MonoBehaviour {
         HideOutside(1);
     }
 
-    void OnScoreChanged(int score) {
-
+    void OnScaleChanged(float scale) {
+        transform.localScale = new Vector3(scale, scale, scale);
     }
 
     public void SendCharacterAnimators() {

@@ -25,19 +25,39 @@ public class Manager_Event : Manager {
     public Action EVT_PayAttention;
     public Action EVT_Presentation_Finished;
     public Action<string> EVT_Display_Blackboard;
- 
-	// Use this for initialization
-	public override void Initialize () 
+
+    //OPTIONS EVENTS
+    public Action<float> EVT_Music_Volume_Changed;
+    public Action<float> EVT_Sfx_Volume_Changed;
+    public Action<float> EVT_Scale_Changed;
+
+    // Use this for initialization
+    public override void Initialize () 
 	{
 		EM = this;
 	}
 
     //PUBLIC FIRE EVENTS
     #region
-        public void Fire_EVT_Replay_Game()
-        {
-            if (EVT_Replay_Game != null) EVT_Replay_Game();
+
+    public void Fire_EVT_Scale_Changed(float scale)
+    {
+        if (EVT_Scale_Changed != null) EVT_Scale_Changed(scale);
+    }
+
+    public void Fire_EVT_Music_Volume_Changed(float volume) {
+            if (EVT_Music_Volume_Changed != null) EVT_Music_Volume_Changed(volume);
         }
+
+        public void Fire_EVT_Sfx_Volume_Changed(float volume)
+        {
+            if (EVT_Sfx_Volume_Changed != null) EVT_Sfx_Volume_Changed(volume);
+        }
+
+        public void Fire_EVT_Replay_Game()
+            {
+                if (EVT_Replay_Game != null) EVT_Replay_Game();
+            }
 
         public void Fire_EVT_PayAttention() {
             if (EVT_PayAttention != null) EVT_PayAttention();
