@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class AI : MonoBehaviour {
 
+    //Manager_Difficulty difficultyRef;
     private Game gameRef;
     public List<Node> nodes;
     Presentation presentationRef;
+    float tempFloat;
+    int tempInt;
 
 	// Use this for initialization
 	void Start () {
@@ -32,6 +35,9 @@ public class AI : MonoBehaviour {
     //Simple Difficulty Ramping based on current score
     //We could even add less time to display on blackboard or even more # combinations
     public int GetNumSequence() {
+
+        // OLD DIFFICULTY SYSTEM
+        /*
         if (gameRef.score < 3)
         {
             return 3;
@@ -43,7 +49,11 @@ public class AI : MonoBehaviour {
         else
         {
             return 6;
-        }
+        }*/
+
+        tempFloat = GLOBAL.instance.M_Difficulty.currentSequenceValue;
+        tempInt = Mathf.RoundToInt(tempFloat);
+        return tempInt;
     }
 
     void OnTutorialFinished() {

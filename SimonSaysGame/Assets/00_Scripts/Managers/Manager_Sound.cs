@@ -28,7 +28,7 @@ public class Manager_Sound : Manager {
     }
 
     public void OnGameOver() {
-        Debug.Log("Sound Manager OnGameOver");
+        //Debug.Log("Sound Manager OnGameOver");
         backgroundMusicSource.Stop();
         backgroundMusicSource.clip = gameOverMusic;
         backgroundMusicSource.volume = 0.1f;

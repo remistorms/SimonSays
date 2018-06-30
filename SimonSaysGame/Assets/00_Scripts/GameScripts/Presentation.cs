@@ -40,9 +40,11 @@ public class Presentation : MonoBehaviour {
             //Display here on the blackboard 
             string textToDisplay = (nodes[i].nodeIndex + 1).ToString() ; 
             GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard(textToDisplay);
-            yield return new WaitForSeconds(1.0f);
+            //Changed this for difficulty time to display
+            // yield return new WaitForSeconds(1.0f);
+            yield return new WaitForSeconds((GLOBAL.instance.M_Difficulty.currentDisplayTime));
             GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard("...");
-            yield return new WaitForSeconds(0.25f);
+            yield return new WaitForSeconds(0.3f);
         }
 
         GLOBAL.instance.M_event.Fire_EVT_Display_Blackboard("Your turn");
